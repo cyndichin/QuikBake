@@ -373,13 +373,15 @@
             <div class="container">               
                 <div class="row">
                     <div class="col-md-3 margin20 facts-in">
+
+                        <h4>Join us for early access.</h4>
                         <div class="input-group">
-                                    <input type="text" name="name"class="form-control" placeholder="Enter name to subscribe">
+                                    <input type="text" name="name"class="form-control" placeholder="Enter name to subscribe"><br>
                                     <input type="text" name="email" class="form-control" placeholder="Enter email to subscribe">
-                                    <span class="input-group-btn">
+                                    <!-- <span class="input-group-btn"> -->
                                     <button class="btn  btn-theme-dark btn-lg" type="submit">Enter</button>
                         </div>
-                        <h4>Downloads</h4>
+                        
                     </div><!--facts in-->
             <!--         <div class="col-md-3 margin20 facts-in">
                         <h3><span class="counter">2000</span></h3>
@@ -399,6 +401,67 @@
                 </div>
             </div>
         </section><!--fun facts-->
+
+
+
+<div class="divide60"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <div class="center-heading">
+                        <h2>What we do</h2>
+                        <span class="center-line"></span>
+                        <p class="sub-text margin40">
+                         We want to present you a simple and functional template “ASSAN”. It is a powerful Multi-Purpose HTML 5 Template. Build whatever you like with this Template that looks effortlessly on-point in Business </p>
+                    </div>
+                </div>
+             
+            </div><!--center heading end-->
+               <div class="divide50"></div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 margin30">
+                    <div class="colored-boxed green">
+                        <i class="fa fa-cogs"></i>
+                        <h3>Free support & updates</h3>
+                        <span class="center-line"></span>
+                        <p>
+                            Nullam vulputate lorem ut leo. Sed volutpat. Etiam non pede. Nullam et mauris. 
+                        </p>
+                    </div>
+                </div><!--colored boxed col end-->
+                <div class="col-md-3 col-sm-6 margin30">
+                    <div class="colored-boxed dark">
+                        <i class="fa fa-tablet"></i>
+                        <h3>Ultra responsive</h3>
+                        <span class="center-line"></span>
+                        <p>
+                            Nullam vulputate lorem ut leo. Sed volutpat. Etiam non pede. Nullam et mauris. 
+                        </p>
+                    </div>
+                </div><!--colored boxed col end-->
+                <div class="col-md-3 col-sm-6 margin30">
+                    <div class="colored-boxed blue">
+                        <i class="fa fa-heart"></i>
+                        <h3>made with love</h3>
+                        <span class="center-line"></span>
+                        <p>
+                            Nullam vulputate lorem ut leo. Sed volutpat. Etiam non pede. Nullam et mauris. 
+                        </p>
+                    </div>
+                </div><!--colored boxed col end-->
+                <div class="col-md-3 col-sm-6 margin30">
+                    <div class="colored-boxed red">
+                        <i class="fa fa-sliders"></i>
+                        <h3>Premium plugins</h3>
+                        <span class="center-line"></span>
+                        <p>
+                            Nullam vulputate lorem ut leo. Sed volutpat. Etiam non pede. Nullam et mauris. 
+                        </p>
+                    </div>
+                </div><!--colored boxed col end-->
+            </div>
+        </div><!--services container-->
+        
         <div class="divide70"></div>
         <div class="assan-features">
             <div class="container">
