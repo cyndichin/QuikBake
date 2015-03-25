@@ -45,7 +45,7 @@
             <div class="container">
                 <div class="top-bar">
                     <div class="pull-left sample-1right hidden-xs">
-                        <a><i class="fa fa-phone"></i> Call us: <span class="colored-text">+02 34543454</span> </a> 
+                        <a><i class="fa fa-phone"></i> Call me maybe: <span class="colored-text">:)</span> </a> 
                         <a><i class="fa fa-envelope"></i> Mail us: <span class="colored-text">quikbake@domain.com</span> </a>
                     </div>
                     <div class="pull-right">
@@ -373,21 +373,29 @@
             <div class="container">               
                 <div class="row">
                     <div class="col-md-3 margin20 facts-in">
-                        <h3><span class="counter">500</span> +</h3>
+                        <div class="input-group">
+                                    <input type="text" name="name"class="form-control" placeholder="Enter name to subscribe">
+                                    <input type="text" name="email" class="form-control" placeholder="Enter email to subscribe">
+                                    <span class="input-group-btn">
+                                    <button class="btn  btn-theme-dark btn-lg" type="submit">Enter</button>
+                        </div>
                         <h4>Downloads</h4>
                     </div><!--facts in-->
-                    <div class="col-md-3 margin20 facts-in">
+            <!--         <div class="col-md-3 margin20 facts-in">
                         <h3><span class="counter">2000</span></h3>
                         <h4>Happy Customers</h4>
-                    </div><!--facts in-->
-                    <div class="col-md-3 margin20 facts-in">
+                    </div> -->
+                    <!--facts in-->
+                <!--     <div class="col-md-3 margin20 facts-in">
                         <h3><span class="counter">60</span> +</h3>
                         <h4>Valid layouts </h4>
-                    </div><!--facts in-->
-                    <div class="col-md-3 margin20 facts-in">
+                    </div> -->
+                    <!--facts in-->
+                    <!-- <div class="col-md-3 margin20 facts-in">
                         <h3><span class="counter">2500</span></h3>
                         <h4>Cups of tea</h4>
-                    </div><!--facts in-->
+                    </div>
+                     --><!--facts in-->
                 </div>
             </div>
         </section><!--fun facts-->
@@ -397,7 +405,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="center-heading">
-                            <h2>Awesome features</h2>
+                            <h2>What we do</h2>
                             <span class="center-line"></span>
                         </div>
                     </div>                   
@@ -439,48 +447,6 @@
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing metus. elit. Quisque rutrum pellentesque imperdiet.
                                 </p>
-                            </div>
-                        </div><!--services box-->
-                    </div><!--services col-->
-
-                    <div class="col-md-4 col-sm-6 margin20">
-                        <div class="services-box wow animated fadeIn" data-wow-duration="700ms" data-wow-delay="400ms">
-                            <div class="services-box-icon">
-                                <i class="fa fa-crop"></i>
-                            </div><!--services icon-->
-                            <div class="services-box-info">
-                                <h4>Pixel perfect design</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing metus. elit. Quisque rutrum pellentesque imperdiet.
-                                </p>
-                            </div>
-                        </div><!--services box-->
-                    </div><!--services col-->
-                    <div class="col-md-4 col-sm-6 margin20">
-                        <div class="services-box wow animated fadeIn" data-wow-duration="700ms" data-wow-delay="500ms">
-                            <div class="services-box-icon">
-                                <i class="fa fa-twitter"></i>
-                            </div><!--services icon-->
-                            <div class="services-box-info">
-                                <h4>Bootstrap 3.3.2</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing metus. elit. Quisque rutrum pellentesque imperdiet.
-                                </p>
-                            </div>
-                        </div><!--services box-->
-                    </div><!--services col-->
-                    <div class="col-md-4 col-sm-6 margin20">
-                        <div class="services-box wow animated fadeIn" data-wow-duration="700ms" data-wow-delay="600ms">
-                            <div class="services-box-icon">
-                                <i class="fa fa-flag"></i>
-                            </div><!--services icon-->
-                            <div class="services-box-info">
-                                <h4>Font Awesome icons</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing metus. elit. Quisque rutrum pellentesque imperdiet.
-
-                                </p>
-
                             </div>
                         </div><!--services box-->
                     </div><!--services col-->
@@ -532,7 +498,6 @@
                                     <input type="text" class="form-control" placeholder="Enter email to subscribe">
                                     <span class="input-group-btn">
                                         <button class="btn  btn-theme-dark btn-lg" type="submit">Ok</button>
-                                    </span>
                                 </div>
                             </form>
                         </div>                        
