@@ -225,17 +225,7 @@
                                 data-end="9400"
                                 data-endspeed="600">Community
                             </div>
-                            
-                            <!-- LAYER NR. 8 -->
-                            <div class="caption medium_bg_darkblue sfl medium tp-resizeme"
-                                data-x="40"
-                                data-y="320"
-                                data-speed="600"
-                                data-start="2200"
-                                data-end="9400"
-                                data-endspeed="600"><i class="fa fa-check"></i>
-                            </div>
-                            
+
                             <!-- LAYER NR. 11 -->
                             <div class="caption sfr tp-resizeme"
                                 data-x="right"
@@ -245,82 +235,6 @@
                                 data-end="9400"
                                 data-endspeed="600"><img src="img/qb.jpg" alt="">
                                     </div>
-                            </li>
-                    <!-- SLIDE -->
-                    <li data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="Slide 2">
-                        <!-- MAIN IMAGE -->
-                        <img src="rev-images/home-slide-2.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
-                            <div class="caption title-2 sft"
-                                data-x="50"
-                                data-y="110"
-                                data-speed="1000"
-                                data-start="1000"
-                                data-easing="easeOutExpo">
-                                Bringing baked goods <br>
-                                to your doorstep
-                            </div>
-                            
-                            
-                            
-                            <div class="caption text sfl"
-                                data-x="50"
-                                data-y="250"
-                                data-speed="1000"
-                                data-start="1800"
-                                data-easing="easeOutExpo">
-                                A fast, reliable way to connect with local bakeries for orders, menu, delivery and much more!
-                            </div>
-                            <div class="caption sfb rev-buttons tp-resizeme"
-                                data-x="50"
-                                data-y="330"
-                                data-speed="500"
-                                data-start="1800"
-                                data-easing="Sine.easeOut">
-                                <a href="#" class="btn btn-theme-bg btn-lg">Find out more</a>
-                            </div>
-                            
-                            </li>
-                    <!-- SLIDE -->
-                    <li data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="Slide 3">
-                        <!-- MAIN IMAGE -->
-                        <img src="rev-images/slider-2.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
-                            <div class="caption sfb"
-                                data-x="280"
-                                data-y="295"
-                                data-speed="1000"
-                                data-start="1000"
-                                data-easing="easeOutExpo">
-                                <img src="rev-images/html5.png" alt="">
-                                    </div>
-                            
-                            <div class="caption sfb"
-                                data-x="700"
-                                data-y="295"
-                                data-speed="1000"
-                                data-start="1400"
-                                data-easing="easeOutExpo">
-                                <img src="rev-images/bootstrap.png" alt="">
-                                    </div>
-                            
-                            <div class="caption sfb"
-                                data-x="480"
-                                data-y="295"
-                                data-speed="1000"
-                                data-start="1800"
-                                data-easing="easeOutExpo">
-                                <img src="rev-images/css3.png" alt="">
-                                    </div>
-                            
-                            <div class="caption title sft"
-                                data-x="290"
-                                data-y="70"
-                                data-speed="1000"
-                                data-start="2200"
-                                data-easing="easeOutExpo">
-                                Quikbake
-                            </div>
-                            
-                            
                             </li>
                 </ul>
             </div>
@@ -374,7 +288,7 @@
                         <h2>Thank you for your support</h2>
                         <span class="center-line"></span>
                         <p class="sub-text margin40">
-                        Watch out for out newsletter. We hope you are as excited as we are! We are looking to revolutionize how you get those delicious baked goods. But, we can only do it with YOUR help. </p>
+                        Watch out for our newsletter. We hope you are as excited as we are! We are looking to revolutionize how you get those delicious baked goods. But, we can only do it with YOUR help. </p>
                     </div>
                 </div>
                 
@@ -435,42 +349,51 @@
                             </div>
                             </div>
                             </div>
+									 <div class="row">
+                            <div class="col-md-12">
+                            <div class="center-heading">
+                            <h5>"If Baking is any labor at all, it's a labor of love. A love that gets passed from generation to generation." </h5>
+									 <p>- Regina Brett</p>
+									 <h5>Whether you want a cake for your friend's birthday, chocolate chip cookies for a midnight snack or enjoy your coffee with a delicious pastry, Quikbake makes it easy and convenient.</h5>
+                            </div>
+                            </div>
+                            </div>
                             <div class="row">
                             <div class="col-md-4 col-sm-6 margin20">
-                            <div class="services-box wow animated fadeIn" data-wow-duration="700ms" data-wow-delay="100ms">
+                            <div class="services-box wow animated fadeIn" data-wow-duration="700ms" data-wow-delay="200ms">
                             <div class="services-box-icon">
                             <i class="fa fa-image"></i>
                             </div><!--services icon-->
                             <div class="services-box-info">
-                            <h4>Sliders</h4>
+                            <h4>Convenience</h4>
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing metus. elit. Quisque rutrum pellentesque imperdiet.
+                            Delicious baked goods can be delivered, shipped or picked up with just a few clicks
                             </p>
                             </div>
                             </div><!--services box-->
                             </div><!--services col-->
                             <div class="col-md-4 col-sm-6 margin20">
-                            <div class="services-box wow animated fadeIn" data-wow-duration="700ms" data-wow-delay="200ms">
+                            <div class="services-box wow animated fadeIn" data-wow-duration="700ms" data-wow-delay="400ms">
                             <div class="services-box-icon">
                             <i class="fa fa-envelope"></i>
                             </div><!--services icon-->
                             <div class="services-box-info">
-                            <h4>Advanced Forms</h4>
+                            <h4>Choice</h4>
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing metus. elit. Quisque rutrum pellentesque imperdiet.
+                            Unique baked goods of every kind - cupcakes, cookies, pastries and much more!
                             </p>
                             </div>
                             </div><!--services box-->
                             </div><!--services col-->
                             <div class="col-md-4 col-sm-6 margin20">
-                            <div class="services-box wow animated fadeIn" data-wow-duration="700ms" data-wow-delay="300ms">
+                            <div class="services-box wow animated fadeIn" data-wow-duration="700ms" data-wow-delay="600ms">
                             <div class="services-box-icon">
                             <i class="fa fa-users"></i>
                             </div><!--services icon-->
                             <div class="services-box-info">
-                            <h4>Customer Support</h4>
+                            <h4>Community</h4>
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing metus. elit. Quisque rutrum pellentesque imperdiet.
+                            Share the love with out forum reviews and blog features.
                             </p>
                             </div>
                             </div><!--services box-->
