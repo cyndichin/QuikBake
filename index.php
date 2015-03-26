@@ -2,60 +2,60 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>QuikBake</title>
-
-        <!-- Bootstrap -->
-        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <!-- custom css-->
-        <link href="css/style.css" rel="stylesheet" type="text/css" media="screen">
-
-        <!-- font awesome for icons -->
-        <link href="font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
-        <!-- flex slider css -->
-        <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="screen">
-        <!-- animated css  -->
-        <link href="css/animate.css" rel="stylesheet" type="text/css" media="screen"> 
-        <!--Revolution slider css-->
-        <link href="rs-plugin/css/settings.css" rel="stylesheet" type="text/css" media="screen">
-        <link href="css/rev-style.css" rel="stylesheet" type="text/css" media="screen">
-        <!--google fonts-->
-
-
-        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic' rel='stylesheet' type='text/css'>
-        <!--owl carousel css-->
-        <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="screen">
-        <link href="css/owl.theme.css" rel="stylesheet" type="text/css" media="screen">
-        <!--mega menu -->
-        <link href="css/yamm.css" rel="stylesheet" type="text/css">
-        <!--popups css-->
-        <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-
-    </head>
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                    <title>QuikBake</title>
+                    
+                    <!-- Bootstrap -->
+                    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+                        <!-- custom css-->
+                        <link href="css/style.css" rel="stylesheet" type="text/css" media="screen">
+                            
+                            <!-- font awesome for icons -->
+                            <link href="font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
+                                <!-- flex slider css -->
+                                <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="screen">
+                                    <!-- animated css  -->
+                                    <link href="css/animate.css" rel="stylesheet" type="text/css" media="screen">
+                                        <!--Revolution slider css-->
+                                        <link href="rs-plugin/css/settings.css" rel="stylesheet" type="text/css" media="screen">
+                                            <link href="css/rev-style.css" rel="stylesheet" type="text/css" media="screen">
+                                                <!--google fonts-->
+                                                
+                                                
+                                                <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic' rel='stylesheet' type='text/css'>
+                                                    <!--owl carousel css-->
+                                                    <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="screen">
+                                                    <link href="css/owl.theme.css" rel="stylesheet" type="text/css" media="screen">
+                                                    <!--mega menu -->
+                                                    <link href="css/yamm.css" rel="stylesheet" type="text/css">
+                                                    <!--popups css-->
+                                                    <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+                                                    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+                                                    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+                                                    <!--[if lt IE 9]>
+                                                     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+                                                     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+                                                     <![endif]-->
+                                                    
+                                                    </head>
     <body>
-
+        
         <div id="header-top">
             <div class="container">
                 <div class="top-bar">
                     <div class="pull-left sample-1right hidden-xs">
-                        <a><i class="fa fa-phone"></i> Call me maybe: <span class="colored-text">:)</span> </a> 
+                        <a><i class="fa fa-phone"></i> Call: <span class="colored-text">1-(347)-796-0225</span> </a>
                         <a><i class="fa fa-envelope"></i> Mail us: <span class="colored-text">quikbake@domain.com</span> </a>
                     </div>
                     <div class="pull-right">
                         <form>
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="search...">
-
-                                <button type="button"><i class="fa fa-search"></i></button>
-
-                            </div><!--input group-->
+                                    
+                                    <button type="button"><i class="fa fa-search"></i></button>
+                                    
+                                    </div><!--input group-->
                         </form><!--form-->
                     </div>
                 </div>
@@ -93,7 +93,7 @@
                                 <li><a href="home-parallax.html">Home - Parallax</a></li>
                                 <li><a href="home-video.html">Home - Video</a></li>
                                 <li><a href="home-boxed.html">Home - Boxed</a></li>
-                                <li><a href="home-events.html">Home - Events</a></li>                                 
+                                <li><a href="home-events.html">Home - Events</a></li>
                                 <li><a href="home-shop.html">Home - Shop</a></li>
                                 <li><a href="one-page/index.html">One page layout</a></li>
                                 <li class="dropdown-submenu">
@@ -116,21 +116,21 @@
                             <div class="dropdown-menu dropdown-menu-right dropdown-login-box animated fadeInUp">
                                 <form role="form">
                                     <h4>Signin</h4>
-
+                                    
                                     <div class="form-group">
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="fa fa-user"></i></span>
                                             <input type="text" class="form-control" placeholder="Username">
-                                        </div>
+                                                </div>
                                         <br>
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="fa fa-lock"></i></span>
                                             <input type="password" class="form-control" placeholder="Password">
-                                        </div>
+                                                </div>
                                         <div class="checkbox pull-left">
                                             <label>
                                                 <input type="checkbox"> Remember me
-                                            </label>
+                                                    </label>
                                         </div>
                                         <a class="btn btn-theme-bg pull-right">Login</a>
                                         <!--                                        <button type="submit" class="btn btn-theme pull-right">Login</button>                 -->
@@ -145,10 +145,10 @@
                 </div><!--/.nav-collapse -->
             </div><!--container-->
         </div><!--navbar-default-->
-
-
+        
+        
         <!--rev slider start-->
-
+        
         <div class="fullwidthbanner">
             <div class="tp-banner">
                 <ul>
@@ -156,425 +156,386 @@
                     <li data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="Slide 1">
                         <!-- MAIN IMAGE -->
                         <img src="rev-images/slider-5.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
-                        <!-- LAYER NR. 1 -->
-                        <div class="caption modern_big_bluebg sfr tp-resizeme"
-                             data-x="40"
-                             data-y="70" 
-                             data-speed="600"
-                             data-start="1200"
-                             data-end="9400"
-                             data-endspeed="600">  Bringing baked goods to your doorstep
-                        </div>
-
-                        <!-- LAYER NR. 2 -->
-                        <div class="caption medium_bg_darkblue sfl medium tp-resizeme"
-                             data-x="40"
-                             data-y="170" 
-                             data-speed="600"
-                             data-start="1600"
-                             data-end="9400"
-                             data-endspeed="600"><i class="fa fa-check"></i>
-                        </div>
-
-                        <!-- LAYER NR. 3 -->
-                        <div class="caption modern_big_redbg sfb medium tp-resizeme"
-                             data-x="90"
-                             data-y="170" 
-                             data-speed="600"
-                             data-start="1600"
-                             data-end="9400"
-                             data-endspeed="600">60+ Bakeries
-                        </div>
-
-                        <!-- LAYER NR. 4 -->
-                        <div class="caption medium_bg_darkblue sfl medium tp-resizeme"
-                             data-x="40"
-                             data-y="220" 
-                             data-speed="600"
-                             data-start="1800"
-                             data-end="9400"
-                             data-endspeed="600"><i class="fa fa-check"></i>
-                        </div>
-
-                        <!-- LAYER NR. 5 -->
-                        <div class="caption modern_big_redbg sfb medium tp-resizeme"
-                             data-x="90"
-                             data-y="220" 
-                             data-speed="600"
-                             data-start="1800"
-                             data-end="9400"
-                             data-endspeed="600">100% Customer Satisfaction
-                        </div>
-
-                        <!-- LAYER NR. 6 -->
-                        <div class="caption medium_bg_darkblue sfl medium tp-resizeme"
-                             data-x="40"
-                             data-y="270" 
-                             data-speed="600"
-                             data-start="2000"
-                             data-end="9400"
-                             data-endspeed="600"><i class="fa fa-check"></i>
-                        </div>
-
-                        <!-- LAYER NR. 7 -->
-                        <div class="caption modern_big_redbg sfb medium tp-resizeme"
-                             data-x="90"
-                             data-y="270" 
-                             data-speed="600"
-                             data-start="2000"
-                             data-end="9400"
-                             data-endspeed="600">Easy access
-                        </div>
-
-                        <!-- LAYER NR. 8 -->
-                        <div class="caption medium_bg_darkblue sfl medium tp-resizeme"
-                             data-x="40"
-                             data-y="320" 
-                             data-speed="600"
-                             data-start="2200"
-                             data-end="9400"
-                             data-endspeed="600"><i class="fa fa-check"></i>
-                        </div>
-
-                        <!-- LAYER NR. 9 -->
-                        <div class="caption modern_big_redbg sfb medium tp-resizeme"
-                             data-x="90"
-                             data-y="320" 
-                             data-speed="600"
-                             data-start="2200"
-                             data-end="9400"
-                             data-endspeed="600">Flexibility
-                        </div>
-
-                        <!-- LAYER NR. 10 -->
-                        <div class="caption modern_big_redbg sfb medium tp-resizeme"
-                             data-x="40"
-                             data-y="370" 
-                             data-speed="600"
-                             data-start="2400"
-                             data-end="9400"
-                             data-endspeed="600">And Much More...
-                        </div>
-
-                        <!-- LAYER NR. 11 -->
-                        <div class="caption sfr tp-resizeme"
-                             data-x="right"
-                             data-y="center" 
-                             data-speed="600"
-                             data-start="2700"
-                             data-end="9400"
-                             data-endspeed="600"><img src="img/qb.jpg" alt="">
-                        </div>
-                    </li>
+                            <!-- LAYER NR. 1 -->
+                            <div class="caption modern_big_bluebg sfr tp-resizeme"
+                                data-x="40"
+                                data-y="70"
+                                data-speed="600"
+                                data-start="1200"
+                                data-end="9400"
+                                data-endspeed="600">  Bringing baked goods to your doorstep
+                            </div>
+                            
+                            <!-- LAYER NR. 2 -->
+                            <div class="caption medium_bg_darkblue sfl medium tp-resizeme"
+                                data-x="40"
+                                data-y="170"
+                                data-speed="600"
+                                data-start="1600"
+                                data-end="9400"
+                                data-endspeed="600"><i class="fa fa-check"></i>
+                            </div>
+                            
+                            <!-- LAYER NR. 3 -->
+                            <div class="caption modern_big_redbg sfb medium tp-resizeme"
+                                data-x="90"
+                                data-y="170"
+                                data-speed="600"
+                                data-start="1600"
+                                data-end="9400"
+                                data-endspeed="600">Convenience
+                            </div>
+                            
+                            <!-- LAYER NR. 4 -->
+                            <div class="caption medium_bg_darkblue sfl medium tp-resizeme"
+                                data-x="40"
+                                data-y="220"
+                                data-speed="600"
+                                data-start="1800"
+                                data-end="9400"
+                                data-endspeed="600"><i class="fa fa-check"></i>
+                            </div>
+                            
+                            <!-- LAYER NR. 5 -->
+                            <div class="caption modern_big_redbg sfb medium tp-resizeme"
+                                data-x="90"
+                                data-y="220"
+                                data-speed="600"
+                                data-start="1800"
+                                data-end="9400"
+                                data-endspeed="600">Choice
+                            </div>
+                            
+                            <!-- LAYER NR. 6 -->
+                            <div class="caption medium_bg_darkblue sfl medium tp-resizeme"
+                                data-x="40"
+                                data-y="270"
+                                data-speed="600"
+                                data-start="2000"
+                                data-end="9400"
+                                data-endspeed="600"><i class="fa fa-check"></i>
+                            </div>
+                            
+                            <!-- LAYER NR. 7 -->
+                            <div class="caption modern_big_redbg sfb medium tp-resizeme"
+                                data-x="90"
+                                data-y="270"
+                                data-speed="600"
+                                data-start="2000"
+                                data-end="9400"
+                                data-endspeed="600">Community
+                            </div>
+                            
+                            <!-- LAYER NR. 8 -->
+                            <div class="caption medium_bg_darkblue sfl medium tp-resizeme"
+                                data-x="40"
+                                data-y="320"
+                                data-speed="600"
+                                data-start="2200"
+                                data-end="9400"
+                                data-endspeed="600"><i class="fa fa-check"></i>
+                            </div>
+                            
+                            <!-- LAYER NR. 11 -->
+                            <div class="caption sfr tp-resizeme"
+                                data-x="right"
+                                data-y="center"
+                                data-speed="600"
+                                data-start="2700"
+                                data-end="9400"
+                                data-endspeed="600"><img src="img/qb.jpg" alt="">
+                                    </div>
+                            </li>
                     <!-- SLIDE -->
                     <li data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="Slide 2">
                         <!-- MAIN IMAGE -->
                         <img src="rev-images/home-slide-2.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
-                        <div class="caption title-2 sft"
-                             data-x="50"
-                             data-y="110"
-                             data-speed="1000"
-                             data-start="1000"
-                             data-easing="easeOutExpo">
-                           Bringing baked goods <br>
-                            to your doorstep
-                        </div>
-
-
-
-                        <div class="caption text sfl"
-                             data-x="50"
-                             data-y="250"
-                             data-speed="1000"
-                             data-start="1800"
-                             data-easing="easeOutExpo">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.  <br>
-                            lectus. Cras porta nisl at tincidunt tincidunt.  
-                        </div>
-                        <div class="caption sfb rev-buttons tp-resizeme"
-                             data-x="50"
-                             data-y="330"
-                             data-speed="500"
-                             data-start="1800"
-                             data-easing="Sine.easeOut">
-                            <a href="#" class="btn btn-theme-bg btn-lg">Purchase Now</a>
-                        </div>
-
-                        <div class="caption sfb rev-buttons tp-resizeme"
-                             data-x="250"
-                             data-y="330"
-                             data-speed="500"
-                             data-start="2100"
-                             data-easing="Sine.easeOut">
-                            <a href="#" class="btn border-white btn-lg">View features</a>
-                        </div>
-
-                    </li>
+                            <div class="caption title-2 sft"
+                                data-x="50"
+                                data-y="110"
+                                data-speed="1000"
+                                data-start="1000"
+                                data-easing="easeOutExpo">
+                                Bringing baked goods <br>
+                                to your doorstep
+                            </div>
+                            
+                            
+                            
+                            <div class="caption text sfl"
+                                data-x="50"
+                                data-y="250"
+                                data-speed="1000"
+                                data-start="1800"
+                                data-easing="easeOutExpo">
+                                A fast, reliable way to connect with local bakeries for orders, menu, delivery and much more!
+                            </div>
+                            <div class="caption sfb rev-buttons tp-resizeme"
+                                data-x="50"
+                                data-y="330"
+                                data-speed="500"
+                                data-start="1800"
+                                data-easing="Sine.easeOut">
+                                <a href="#" class="btn btn-theme-bg btn-lg">Find out more</a>
+                            </div>
+                            
+                            </li>
                     <!-- SLIDE -->
                     <li data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="Slide 3">
                         <!-- MAIN IMAGE -->
                         <img src="rev-images/slider-2.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
-                        <div class="caption sfb"
-                             data-x="280"
-                             data-y="295"
-                             data-speed="1000"
-                             data-start="1000"
-                             data-easing="easeOutExpo">
-                            <img src="rev-images/html5.png" alt="">
-                        </div>
-
-                        <div class="caption sfb"
-                             data-x="700"
-                             data-y="295"
-                             data-speed="1000"
-                             data-start="1400"
-                             data-easing="easeOutExpo">
-                            <img src="rev-images/bootstrap.png" alt="">
-                        </div>
-
-                        <div class="caption sfb"
-                             data-x="480"
-                             data-y="295"
-                             data-speed="1000"
-                             data-start="1800"
-                             data-easing="easeOutExpo">
-                            <img src="rev-images/css3.png" alt="">
-                        </div>
-
-                        <div class="caption title sft"
-                             data-x="290"
-                             data-y="70"
-                             data-speed="1000"
-                             data-start="2200"
-                             data-easing="easeOutExpo">
-                            Quikbake
-                        </div>
-
-                        <div class="caption subtitle sfr"
-                             data-x="550"
-                             data-y="80"
-                             data-speed="1000"
-                             data-start="2600"
-                             data-easing="easeOutExpo">
-                            <strong>Used latest<br>
-                                technologies</strong>
-                        </div>
-                    </li>
+                            <div class="caption sfb"
+                                data-x="280"
+                                data-y="295"
+                                data-speed="1000"
+                                data-start="1000"
+                                data-easing="easeOutExpo">
+                                <img src="rev-images/html5.png" alt="">
+                                    </div>
+                            
+                            <div class="caption sfb"
+                                data-x="700"
+                                data-y="295"
+                                data-speed="1000"
+                                data-start="1400"
+                                data-easing="easeOutExpo">
+                                <img src="rev-images/bootstrap.png" alt="">
+                                    </div>
+                            
+                            <div class="caption sfb"
+                                data-x="480"
+                                data-y="295"
+                                data-speed="1000"
+                                data-start="1800"
+                                data-easing="easeOutExpo">
+                                <img src="rev-images/css3.png" alt="">
+                                    </div>
+                            
+                            <div class="caption title sft"
+                                data-x="290"
+                                data-y="70"
+                                data-speed="1000"
+                                data-start="2200"
+                                data-easing="easeOutExpo">
+                                Quikbake
+                            </div>
+                            
+                            
+                            </li>
                 </ul>
             </div>
         </div><!--full width banner-->
-
+        
         <!--end-->
         <!--end-->
-
+        
         </div>
-
+        
         <section class="fun-fact-wrap fun-facts-bg">
-            <div class="container">               
+            <div class="container">
                 <div class="row">
                     <div class="col-md-3 margin20 facts-in">
-
+                        
                         <h4>Join us for early access.</h4>
                         <div class="input-group">
-                                    <input type="text" name="name"class="form-control" placeholder="Enter name to subscribe"><br>
-                                    <input type="text" name="email" class="form-control" placeholder="Enter email to subscribe">
+                            <input type="text" name="name"class="form-control" placeholder="Enter name to subscribe"><br>
+                                <input type="text" name="email" class="form-control" placeholder="Enter email to subscribe">
                                     <!-- <span class="input-group-btn"> -->
                                     <button class="btn  btn-theme-dark btn-lg" type="submit">Enter</button>
-                        </div>
+                                    </div>
                         
                     </div><!--facts in-->
-            <!--         <div class="col-md-3 margin20 facts-in">
-                        <h3><span class="counter">2000</span></h3>
-                        <h4>Happy Customers</h4>
-                    </div> -->
+                    <!--         <div class="col-md-3 margin20 facts-in">
+                     <h3><span class="counter">2000</span></h3>
+                     <h4>Happy Customers</h4>
+                     </div> -->
                     <!--facts in-->
-                <!--     <div class="col-md-3 margin20 facts-in">
-                        <h3><span class="counter">60</span> +</h3>
-                        <h4>Valid layouts </h4>
-                    </div> -->
+                    <!--     <div class="col-md-3 margin20 facts-in">
+                     <h3><span class="counter">60</span> +</h3>
+                     <h4>Valid layouts </h4>
+                     </div> -->
                     <!--facts in-->
                     <!-- <div class="col-md-3 margin20 facts-in">
-                        <h3><span class="counter">2500</span></h3>
-                        <h4>Cups of tea</h4>
-                    </div>
+                     <h3><span class="counter">2500</span></h3>
+                     <h4>Cups of tea</h4>
+                     </div>
                      --><!--facts in-->
                 </div>
             </div>
         </section><!--fun facts-->
-
-
-
-<div class="divide60"></div>
+        
+        
+        
+        <div class="divide60"></div>
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 col-sm-offset-2">
                     <div class="center-heading">
-                        <h2>What we do</h2>
+                        <h2>Thank you for your support</h2>
                         <span class="center-line"></span>
                         <p class="sub-text margin40">
-                         We want to present you a simple and functional template “ASSAN”. It is a powerful Multi-Purpose HTML 5 Template. Build whatever you like with this Template that looks effortlessly on-point in Business </p>
+                        Watch out for out newsletter. We hope you are as excited as we are! We are looking to revolutionize how you get those delicious baked goods. But, we can only do it with YOUR help. </p>
                     </div>
                 </div>
-             
+                
             </div><!--center heading end-->
-               <div class="divide50"></div>
+            <div class="divide50"></div>
             <div class="row">
                 <div class="col-md-3 col-sm-6 margin30">
                     <div class="colored-boxed green">
                         <i class="fa fa-cogs"></i>
                         <h3>Free support & updates</h3>
-                        <span class="center-line"></span>
-                        <p>
-                            Nullam vulputate lorem ut leo. Sed volutpat. Etiam non pede. Nullam et mauris. 
-                        </p>
-                    </div>
-                </div><!--colored boxed col end-->
-                <div class="col-md-3 col-sm-6 margin30">
-                    <div class="colored-boxed dark">
-                        <i class="fa fa-tablet"></i>
-                        <h3>Ultra responsive</h3>
-                        <span class="center-line"></span>
-                        <p>
-                            Nullam vulputate lorem ut leo. Sed volutpat. Etiam non pede. Nullam et mauris. 
-                        </p>
-                    </div>
-                </div><!--colored boxed col end-->
-                <div class="col-md-3 col-sm-6 margin30">
-                    <div class="colored-boxed blue">
-                        <i class="fa fa-heart"></i>
-                        <h3>made with love</h3>
-                        <span class="center-line"></span>
-                        <p>
-                            Nullam vulputate lorem ut leo. Sed volutpat. Etiam non pede. Nullam et mauris. 
-                        </p>
-                    </div>
-                </div><!--colored boxed col end-->
-                <div class="col-md-3 col-sm-6 margin30">
-                    <div class="colored-boxed red">
-                        <i class="fa fa-sliders"></i>
-                        <h3>Premium plugins</h3>
-                        <span class="center-line"></span>
-                        <p>
-                            Nullam vulputate lorem ut leo. Sed volutpat. Etiam non pede. Nullam et mauris. 
-                        </p>
-                    </div>
-                </div><!--colored boxed col end-->
-            </div>
-        </div><!--services container-->
-        
-        <div class="divide70"></div>
-        <div class="assan-features">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="center-heading">
+                            <span class="center-line"></span>
+                            <p>
+                            Nullam vulputate lorem ut leo. Sed volutpat. Etiam non pede. Nullam et mauris.
+                            </p>
+                            </div>
+                            </div><!--colored boxed col end-->
+                            <div class="col-md-3 col-sm-6 margin30">
+                            <div class="colored-boxed dark">
+                            <i class="fa fa-tablet"></i>
+                            <h3>Ultra responsive</h3>
+                            <span class="center-line"></span>
+                            <p>
+                            Nullam vulputate lorem ut leo. Sed volutpat. Etiam non pede. Nullam et mauris.
+                            </p>
+                            </div>
+                            </div><!--colored boxed col end-->
+                            <div class="col-md-3 col-sm-6 margin30">
+                            <div class="colored-boxed blue">
+                            <i class="fa fa-heart"></i>
+                            <h3>made with love</h3>
+                            <span class="center-line"></span>
+                            <p>
+                            Nullam vulputate lorem ut leo. Sed volutpat. Etiam non pede. Nullam et mauris.
+                            </p>
+                            </div>
+                            </div><!--colored boxed col end-->
+                            <div class="col-md-3 col-sm-6 margin30">
+                            <div class="colored-boxed red">
+                            <i class="fa fa-sliders"></i>
+                            <h3>Premium plugins</h3>
+                            <span class="center-line"></span>
+                            <p>
+                            Nullam vulputate lorem ut leo. Sed volutpat. Etiam non pede. Nullam et mauris.
+                            </p>
+                            </div>
+                            </div><!--colored boxed col end-->
+                            </div>
+                            </div><!--services container-->
+                            
+                            <div class="divide70"></div>
+                            <div class="assan-features">
+                            <div class="container">
+                            <div class="row">
+                            <div class="col-md-12">
+                            <div class="center-heading">
                             <h2>What we do</h2>
                             <span class="center-line"></span>
-                        </div>
-                    </div>                   
-                </div>
-                <div class="row">
-                    <div class="col-md-4 col-sm-6 margin20">
-                        <div class="services-box wow animated fadeIn" data-wow-duration="700ms" data-wow-delay="100ms">
+                            </div>
+                            </div>
+                            </div>
+                            <div class="row">
+                            <div class="col-md-4 col-sm-6 margin20">
+                            <div class="services-box wow animated fadeIn" data-wow-duration="700ms" data-wow-delay="100ms">
                             <div class="services-box-icon">
-                                <i class="fa fa-image"></i>
+                            <i class="fa fa-image"></i>
                             </div><!--services icon-->
                             <div class="services-box-info">
-                                <h4>Sliders</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing metus. elit. Quisque rutrum pellentesque imperdiet.
-                                </p>
-                            </div>
-                        </div><!--services box-->
-                    </div><!--services col-->
-                    <div class="col-md-4 col-sm-6 margin20">
-                        <div class="services-box wow animated fadeIn" data-wow-duration="700ms" data-wow-delay="200ms">
-                            <div class="services-box-icon">
-                                <i class="fa fa-envelope"></i>
-                            </div><!--services icon-->
-                            <div class="services-box-info">
-                                <h4>Advanced Forms</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing metus. elit. Quisque rutrum pellentesque imperdiet.
-                                </p>
-                            </div>
-                        </div><!--services box-->
-                    </div><!--services col-->
-                    <div class="col-md-4 col-sm-6 margin20">
-                        <div class="services-box wow animated fadeIn" data-wow-duration="700ms" data-wow-delay="300ms">
-                            <div class="services-box-icon">
-                                <i class="fa fa-users"></i>
-                            </div><!--services icon-->
-                            <div class="services-box-info">
-                                <h4>Customer Support</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing metus. elit. Quisque rutrum pellentesque imperdiet.
-                                </p>
-                            </div>
-                        </div><!--services box-->
-                    </div><!--services col-->
-                </div><!--services row-->
-            </div>
-        </div><!--assan features-->
-       
-        <footer id="footer">
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-md-3 col-sm-6 margin30">
-                        <div class="footer-col">
-                            <h3>About assan</h3>
+                            <h4>Sliders</h4>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lorem quam, adipiscing condimentum tristique vel, eleifend sed turpis. Pellentesque cursus arcu id magna euismod in elementum purus molestie.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing metus. elit. Quisque rutrum pellentesque imperdiet.
+                            </p>
+                            </div>
+                            </div><!--services box-->
+                            </div><!--services col-->
+                            <div class="col-md-4 col-sm-6 margin20">
+                            <div class="services-box wow animated fadeIn" data-wow-duration="700ms" data-wow-delay="200ms">
+                            <div class="services-box-icon">
+                            <i class="fa fa-envelope"></i>
+                            </div><!--services icon-->
+                            <div class="services-box-info">
+                            <h4>Advanced Forms</h4>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing metus. elit. Quisque rutrum pellentesque imperdiet.
+                            </p>
+                            </div>
+                            </div><!--services box-->
+                            </div><!--services col-->
+                            <div class="col-md-4 col-sm-6 margin20">
+                            <div class="services-box wow animated fadeIn" data-wow-duration="700ms" data-wow-delay="300ms">
+                            <div class="services-box-icon">
+                            <i class="fa fa-users"></i>
+                            </div><!--services icon-->
+                            <div class="services-box-info">
+                            <h4>Customer Support</h4>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing metus. elit. Quisque rutrum pellentesque imperdiet.
+                            </p>
+                            </div>
+                            </div><!--services box-->
+                            </div><!--services col-->
+                            </div><!--services row-->
+                            </div>
+                            </div><!--assan features-->
+                            
+                            <footer id="footer">
+                            <div class="container">
+                            
+                            <div class="row">
+                            <div class="col-md-3 col-sm-6 margin30">
+                            <div class="footer-col">
+                            <h3>About Quikbake</h3>
+                            <p>
+                            Quikbake provides a platform that connects customers and local bakeries in one platform, providing swift access and a wide range of choices for its customers.
                             </p>
                             <ul class="list-inline social-1">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
                             </ul>
-                        </div>                        
-                    </div><!--footer col-->
-                    <div class="col-md-3 col-sm-6 margin30">
-                        <div class="footer-col">
+                            </div>
+                            </div><!--footer col-->
+                            <div class="col-md-3 col-sm-6 margin30">
+                            <div class="footer-col">
                             <h3>Contact</h3>
-
+                            
                             <ul class="list-unstyled contact">
-                                <li><p><strong><i class="fa fa-map-marker"></i> Address:</strong> vaisahali, jaipur, 302012</p></li> 
-                                <li><p><strong><i class="fa fa-envelope"></i> Mail Us:</strong> <a href="#">Support@designmylife.com</a></p></li>
-                                <li> <p><strong><i class="fa fa-phone"></i> Phone:</strong> +91 1800 2345 2132</p></li>
-                                <li> <p><strong><i class="fa fa-print"></i> Fax</strong> 1800 2345 2132</p></li>
-                                <li> <p><strong><i class="fa fa-skype"></i> Skype</strong> assan.856</p></li>
-
+                            <li><p><strong><i class="fa fa-map-marker"></i> Address:</strong> Binghamton University</p></li>
+                            <li><p><strong><i class="fa fa-envelope"></i> Mail Us:</strong> <a href="#">support@quikbake.com</a></p></li>
+                            <li> <p><strong><i class="fa fa-phone"></i> Phone:</strong> +1 (347)-726-0225</p></li>
+                            <li> <p><strong><i class="fa fa-print"></i> Fax</strong> 1800 2345 2132</p></li>
+                            
                             </ul>
-                        </div>                        
-                    </div><!--footer col-->
-                    <div class="col-md-3 col-sm-6 margin30">
-                        <div class="footer-col">
+                            </div>
+                            </div><!--footer col-->
+                            <div class="col-md-3 col-sm-6 margin30">
+                            <div class="footer-col">
                             <h3>Newsletter</h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lorem quam, 
+                            Please subscribe to stay up to date about Quikbake and be the first to know about what's new at Quikbake!
                             </p>
                             <form role="form" class="subscribe-form">
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Enter email to subscribe">
-                                    <span class="input-group-btn">
-                                        <button class="btn  btn-theme-dark btn-lg" type="submit">Ok</button>
-                                </div>
+                            <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Enter email to subscribe">
+                            <span class="input-group-btn">
+                            <button class="btn  btn-theme-dark btn-lg" type="submit">Ok</button>
+                            </div>
                             </form>
-                        </div>                        
-                    </div><!--footer col-->
-
-                </div>
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <div class="footer-btm">
-                            <span>&copy;2015. QuikBake /span>
-                        </div>
-                    </div>
+                            </div>                        
+                            </div><!--footer col-->
+                            
+                            </div>
+                            <div class="row">
+                            <div class="col-md-12 text-center">
+                            <div class="footer-btm">
+                            <span>&copy;2015. QuikBake </span>
+                            </div>
                 </div>
             </div>
+        </div>
         </footer><!--default footer end here-->
         <!--scripts and plugins -->
         <!--must need plugin jquery-->
@@ -598,8 +559,8 @@
         <script src="js/jquery.counterup.min.js" type="text/javascript"></script>
         <!--on scroll animation-->
         <script src="js/wow.min.js" type="text/javascript"></script> 
-
-
+        
+        
         <!--owl carousel slider-->
         <script src="js/owl.carousel.min.js" type="text/javascript"></script>
         <!--popup js-->
@@ -608,11 +569,11 @@
         <script src="js/jquery.mb.YTPlayer.min.js" type="text/javascript"></script>        
         <!--customizable plugin edit according to your needs-->
         <script src="js/custom.js" type="text/javascript"></script>
-
+        
         <!--revolution slider plugins-->
         <script src="rs-plugin/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
         <script src="rs-plugin/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
         <script src="js/revolution-custom.js" type="text/javascript"></script>
-
+        
     </body>
 </html>
