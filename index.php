@@ -307,19 +307,9 @@
                 </div><!--services col-->
             </div>
         <!/Section 3>
-        <div class="divide60"></div>
+        
         <div class="container">
-            <div class="row">
-                <div class="col-sm-8 col-sm-offset-2">
-                    <div class="center-heading">
-                        <h2>Thank you for your support</h2>
-                        <span class="center-line"></span>
-                        <p class="sub-text margin40">
-                        Watch out for our newsletter. We hope you are as excited as we are! We are looking to revolutionize how you get those delicious baked goods. But, we can only do it with YOUR help. </p>
-                    </div>
-                </div>
-                
-            </div><!--center heading end-->
+
             
                             </div>
                             </div><!--services container-->
@@ -344,6 +334,18 @@
                             </div>
                             </div>
                             </div>
+            <div class="divide60"></div>
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <div class="center-heading">
+                        <h2>Thank you for your support</h2>
+                        <span class="center-line"></span>
+                        <p class="sub-text margin40">
+                        Watch out for our newsletter. We hope you are as excited as we are! We are looking to revolutionize how you get those delicious baked goods. But, we can only do it with YOUR help. </p>
+                    </div>
+                </div>
+                
+            </div><!--center heading end-->
                             
                             </div>
                             </div><!--assan features-->
