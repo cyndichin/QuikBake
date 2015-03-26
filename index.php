@@ -80,34 +80,7 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
                                 <li class="dropdown-submenu">
-                                    <a tabindex="-1" href="#">home - revolution </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="index.html">Full width</a></li>
-                                        <li><a href="home-revolution-boxed.html">Revolution Boxed</a></li>
-                                        <li><a href="home-revolution-fullscreen.html">Revolution Fullscreen</a></li>
-                                        <li><a href="ken-burns.html">Ken burns Slider</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="home-carousel.html">Home - Carousel</a></li>
-                                <li><a href="home-2.html">Home - Flex slider</a></li>
-                                <li><a href="home-parallax.html">Home - Parallax</a></li>
-                                <li><a href="home-video.html">Home - Video</a></li>
-                                <li><a href="home-boxed.html">Home - Boxed</a></li>
-                                <li><a href="home-events.html">Home - Events</a></li>
-                                <li><a href="home-shop.html">Home - Shop</a></li>
-                                <li><a href="one-page/index.html">One page layout</a></li>
-                                <li class="dropdown-submenu">
-                                    <a tabindex="-1" href="#">Multi level menu </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#"> menu level 2</a></li>
-                                        <li class="dropdown-submenu">
-                                            <a tabindex="-1" href="#">menu level 2 </a>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="#"> menu level 3</a></li>
-                                                <li><a href="#"> menu level 3</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
+                                    <a tabindex="-1" href="#">Home</a>
                                 </li>
                             </ul>
                         </li>
@@ -248,17 +221,15 @@
         <section class="fun-fact-wrap fun-facts-bg">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3 margin20 facts-in">
+                    <div class="col-md-12 margin20 wow animated fadeInRight">
                         
-                        <h4>Join us for early access.</h4>
+                        <h3>Join us for early access.</h3>
                         <div class="input-group">
-                            <input type="text" name="name"class="form-control" placeholder="Enter name to subscribe"><br>
+                            <input type="text" name="name"class="form-control" placeholder="Enter name"><br>
                                 <input type="text" name="email" class="form-control" placeholder="Enter email to subscribe">
                                     <!-- <span class="input-group-btn"> -->
                                     <button class="btn  btn-theme-dark btn-lg" type="submit">Enter</button>
-                                    </div>
-                        
-                    </div><!--facts in-->
+                            </div><!--facts in-->
                     <!--         <div class="col-md-3 margin20 facts-in">
                      <h3><span class="counter">2000</span></h3>
                      <h4>Happy Customers</h4>
@@ -277,9 +248,65 @@
                 </div>
             </div>
         </section><!--fun facts-->
-        
-        
-        
+        <!Section 3>
+            <div class="row special-feature">
+                
+                <div class="col-md-4 col-sm-6 margin30">
+                    <div class="s-feature-box text-center">
+                        <div class="mask-top">
+                            <!-- Icon -->
+                            <i class="fa fa-laptop"></i>
+                            <!-- Title -->
+                            <h4>Convenience</h4>
+                        </div>
+                        <div class="mask-bottom">
+                            <!-- Icon -->
+                            <i class="fa fa-laptop"></i>
+                            <!-- Title -->
+                            <h4>Convenience</h4>
+                            <!-- Text -->
+                            <h6>Delicious baked goods can be delivered, shipped or picked up with just a few clicks.</h6>
+                        </div>
+                    </div>
+                </div><!--services col-->
+                <div class="col-md-4 col-sm-6 margin30">
+                    <div class="s-feature-box text-center">
+                        <div class="mask-top">
+                            <!-- Icon -->
+                            <i class="fa fa-list"></i>
+                            <!-- Title -->
+                            <h4>Choice</h4>
+                        </div>
+                        <div class="mask-bottom">
+                            <!-- Icon -->
+                            <i class="fa fa-list"></i>
+                            <!-- Title -->
+                            <h4>Choice</h4>
+                            <!-- Text -->
+                            <h6>Unique baked goods of every kind - cupcakes, cookies, pastries and much more!</h6>
+                        </div>
+                    </div>
+                </div><!--services col-->
+                <div class="col-md-4 col-sm-6 margin30">
+                    <div class="s-feature-box text-center">
+                        <div class="mask-top">
+                            <!-- Icon -->
+                            <i class="fa fa-users"></i>
+                            <!-- Title -->
+                            <h4>Community</h4>
+                        </div>
+                        <div class="mask-bottom">
+                            <!-- Icon -->
+                            <i class="fa fa-users"></i>
+                            <!-- Title -->
+                            <h4>Community</h4>
+                            <!-- Text -->
+                            <h6>Share the love with out forum reviews and blog features.</h6>
+                        </div>
+                    </div>
+                </div><!--services col-->
+            </div>
+        <!/Section 3>
         <div class="divide60"></div>
         <div class="container">
             <div class="row">
@@ -294,115 +321,31 @@
                 
             </div><!--center heading end-->
             <div class="divide50"></div>
-            <div class="row">
-                <div class="col-md-3 col-sm-6 margin30">
-                    <div class="colored-boxed green">
-                        <i class="fa fa-cogs"></i>
-                        <h3>Free support & updates</h3>
-                            <span class="center-line"></span>
-                            <p>
-                            Nullam vulputate lorem ut leo. Sed volutpat. Etiam non pede. Nullam et mauris.
-                            </p>
-                            </div>
-                            </div><!--colored boxed col end-->
-                            <div class="col-md-3 col-sm-6 margin30">
-                            <div class="colored-boxed dark">
-                            <i class="fa fa-tablet"></i>
-                            <h3>Ultra responsive</h3>
-                            <span class="center-line"></span>
-                            <p>
-                            Nullam vulputate lorem ut leo. Sed volutpat. Etiam non pede. Nullam et mauris.
-                            </p>
-                            </div>
-                            </div><!--colored boxed col end-->
-                            <div class="col-md-3 col-sm-6 margin30">
-                            <div class="colored-boxed blue">
-                            <i class="fa fa-heart"></i>
-                            <h3>made with love</h3>
-                            <span class="center-line"></span>
-                            <p>
-                            Nullam vulputate lorem ut leo. Sed volutpat. Etiam non pede. Nullam et mauris.
-                            </p>
-                            </div>
-                            </div><!--colored boxed col end-->
-                            <div class="col-md-3 col-sm-6 margin30">
-                            <div class="colored-boxed red">
-                            <i class="fa fa-sliders"></i>
-                            <h3>Premium plugins</h3>
-                            <span class="center-line"></span>
-                            <p>
-                            Nullam vulputate lorem ut leo. Sed volutpat. Etiam non pede. Nullam et mauris.
-                            </p>
-                            </div>
-                            </div><!--colored boxed col end-->
-                            </div>
-                            </div><!--services container-->
-                            
-                            <div class="divide70"></div>
-                            <div class="assan-features">
-                            <div class="container">
+                </div><!--services container-->
+                <div class="divide70"></div>
+                    <div class="assan-features">
+                        <div class="container">
                             <div class="row">
-                            <div class="col-md-12">
-                            <div class="center-heading">
-                            <h2>What we do</h2>
-                            <span class="center-line"></span>
+                                <div class="col-md-12">
+                                    <div class="center-heading">
+                                    <h2>What we do</h2>
+                                    <span class="center-line"></span>
+                                    </div>
+                                </div>
                             </div>
-                            </div>
-                            </div>
-									 <div class="row">
-                            <div class="col-md-12">
-                            <div class="center-heading">
-                            <h5>"If Baking is any labor at all, it's a labor of love. A love that gets passed from generation to generation." </h5>
-									 <p>- Regina Brett</p>
-									 <h5>Whether you want a cake for your friend's birthday, chocolate chip cookies for a midnight snack or enjoy your coffee with a delicious pastry, Quikbake makes it easy and convenient.</h5>
-                            </div>
-                            </div>
-                            </div>
-                            <div class="row">
-                            <div class="col-md-4 col-sm-6 margin20">
-                            <div class="services-box wow animated fadeIn" data-wow-duration="700ms" data-wow-delay="200ms">
-                            <div class="services-box-icon">
-                            <i class="fa fa-image"></i>
-                            </div><!--services icon-->
-                            <div class="services-box-info">
-                            <h4>Convenience</h4>
-                            <p>
-                            Delicious baked goods can be delivered, shipped or picked up with just a few clicks
-                            </p>
-                            </div>
-                            </div><!--services box-->
-                            </div><!--services col-->
-                            <div class="col-md-4 col-sm-6 margin20">
-                            <div class="services-box wow animated fadeIn" data-wow-duration="700ms" data-wow-delay="400ms">
-                            <div class="services-box-icon">
-                            <i class="fa fa-envelope"></i>
-                            </div><!--services icon-->
-                            <div class="services-box-info">
-                            <h4>Choice</h4>
-                            <p>
-                            Unique baked goods of every kind - cupcakes, cookies, pastries and much more!
-                            </p>
-                            </div>
-                            </div><!--services box-->
-                            </div><!--services col-->
-                            <div class="col-md-4 col-sm-6 margin20">
-                            <div class="services-box wow animated fadeIn" data-wow-duration="700ms" data-wow-delay="600ms">
-                            <div class="services-box-icon">
-                            <i class="fa fa-users"></i>
-                            </div><!--services icon-->
-                            <div class="services-box-info">
-                            <h4>Community</h4>
-                            <p>
-                            Share the love with out forum reviews and blog features.
-                            </p>
-                            </div>
-                            </div><!--services box-->
-                            </div><!--services col-->
-                            </div><!--services row-->
-                            </div>
-                            </div><!--assan features-->
-                            
-                            <footer id="footer">
+							<div class="row">
+                                <div class="col-md-12">
+                                    <div class="center-heading">
+                                    <h5>"If Baking is any labor at all, it's a labor of love. A love that gets passed from generation to generation." </h5>
+									<p>- Regina Brett</p>
+									<h5>Whether you want a cake for your friend's birthday, chocolate chip cookies for a midnight snack or enjoy your coffee with a delicious pastry, Quikbake makes it easy and convenient.</h5>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div><!--assan features-->
+                        <!need to clean up code indentations    
+                    <footer id="footer">
                             <div class="container">
                             
                             <div class="row">
