@@ -320,36 +320,39 @@
                 </div>
                 
             </div><!--center heading end-->
-            <div class="divide50"></div>
-                </div><!--services container-->
-                <div class="divide70"></div>
-                    <div class="assan-features">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="center-heading">
-                                    <h2>What we do</h2>
-                                    <span class="center-line"></span>
-                                    </div>
-                                </div>
+            
                             </div>
-							<div class="row">
-                                <div class="col-md-12">
-                                    <div class="center-heading">
-                                    <h5>"If Baking is any labor at all, it's a labor of love. A love that gets passed from generation to generation." </h5>
-									<p>- Regina Brett</p>
-									<h5>Whether you want a cake for your friend's birthday, chocolate chip cookies for a midnight snack or enjoy your coffee with a delicious pastry, Quikbake makes it easy and convenient.</h5>
-                                    </div>
-                                </div>
-                            </div> 
-                        </div>
-                    </div><!--assan features-->
-                        <!need to clean up code indentations    
-                    <footer id="footer">
+                            </div><!--services container-->
+                            
+                            <div class="divide50"></div>
+                            <div class="assan-features">
+                            <div class="container">
+                            <div class="row">
+                            <div class="col-md-12">
+                            <div class="center-heading">
+                            <h2>What we do</h2>
+                            <span class="center-line"></span>
+                            </div>
+                            </div>
+                            </div>
+									 <div class="row">
+                            <div class="col-md-12">
+                            <div class="center-heading">
+                            <h5>"If Baking is any labor at all, it's a labor of love. A love that gets passed from generation to generation." </h5>
+									 <p>- Regina Brett</p>
+									 <h5>Whether you want a cake for your friend's birthday, chocolate chip cookies for a midnight snack or enjoy your coffee with a delicious pastry, Quikbake makes it easy and convenient.</h5>
+                            </div>
+                            </div>
+                            </div>
+                            
+                            </div>
+                            </div><!--assan features-->
+                            
+                            <footer id="footer">
                             <div class="container">
                             
                             <div class="row">
-                            <div class="col-md-3 col-sm-6 margin30">
+                            <div class="col-md-4 col-sm-6 margin30">
                             <div class="footer-col">
                             <h3>About Quikbake</h3>
                             <p>
@@ -364,7 +367,7 @@
                             </ul>
                             </div>
                             </div><!--footer col-->
-                            <div class="col-md-3 col-sm-6 margin30">
+                            <div class="col-md-4 col-sm-6 margin30">
                             <div class="footer-col">
                             <h3>Contact</h3>
                             
@@ -377,7 +380,7 @@
                             </ul>
                             </div>
                             </div><!--footer col-->
-                            <div class="col-md-3 col-sm-6 margin30">
+                            <div class="col-md-4 col-sm-6 margin30">
                             <div class="footer-col">
                             <h3>Newsletter</h3>
                             <p>
