@@ -128,7 +128,7 @@
                     <!-- SLIDE -->
                     <li data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="Slide 1">
                         <!-- MAIN IMAGE -->
-                        <img src="rev-images/slider-5.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                      <img src="rev-images/slider-5.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
                             <!-- LAYER NR. 1 -->
                             <div class="caption modern_big_bluebg sfr tp-resizeme"
                                 data-x="40"
@@ -201,96 +201,70 @@
         <!--end-->
         
         </div>
+
+          <div class="divide50"></div>            
+                 
+                        <div class="row">
+                            <div class="col-md-12">
+                            <div class="center-heading">
+                                  <br><br><br>
+                            <h2>"If Baking is any labor at all, it's a labor of love. A love that gets passed from generation to generation." </h2>
+                                     <h5>- Regina Brett</h5>
+                                      <span class="center-line"></span>
+                          
+                            </div>
+                            </div>
+                        </div>
+                              <div class="divide50"></div>
         
         <section class="fun-fact-wrap fun-facts-bg">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 margin20 wow animated fadeInRight">
-                        
-                        <h3>Join us for early access.</h3>
-                        <div class="input-group">
-                            <input type="text" name="name"class="form-control" placeholder="Enter name"><br>
-                                <input type="text" name="email" class="form-control" placeholder="Enter email to subscribe">
-                                    <!-- <span class="input-group-btn"> -->
-                                    <button class="btn  btn-theme-dark btn-lg" type="submit">Enter</button>
-                            </div><!--facts in-->
-                    <!--         <div class="col-md-3 margin20 facts-in">
-                     <h3><span class="counter">2000</span></h3>
-                     <h4>Happy Customers</h4>
-                     </div> -->
-                    <!--facts in-->
-                    <!--     <div class="col-md-3 margin20 facts-in">
-                     <h3><span class="counter">60</span> +</h3>
-                     <h4>Valid layouts </h4>
-                     </div> -->
-                    <!--facts in-->
-                    <!-- <div class="col-md-3 margin20 facts-in">
-                     <h3><span class="counter">2500</span></h3>
-                     <h4>Cups of tea</h4>
-                     </div>
-                     --><!--facts in-->
+                    <div class="center-heading">
+                        <div id="subscribe">   
+                     <h3>Join us for early access.</h3>
+<span style="text-align: center;">
+                    
+                            <input type="text" name="name" size="35" height="160" placeholder="Name"><br><br>
+                                <input type="text" name="email" size="35" line-height="160" placeholder="Email"><br><br>
+                                 <span class="input-group-btn"> 
+<input type="submit" name="submit" class="btn  btn-theme-dark btn-lg" >
+</span>
+        
+              
+                </div>
+                            </div>
+
+    <div id="thanks">             
+            <div class='row'>
+                <div class='col-sm-8 col-sm-offset-2'>
+                     <div class="bounceInDown">
+                    <div class='center-heading'>
+                        <h2>Thank you for your support</h2>
+                   
+                        <h6>
+                        Watch out for our newsletter. We hope you are as excited as we are! We are looking to revolutionize how you get those delicious baked goods. But, we can only do it with YOUR help. </h6>
+                    </div>
+                </div>
+                </div>
+            </div>
+</div>
+            
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>  
+     $('#thanks').hide();
+    $("input[name=submit]").on('click',function (){
+        $("#subscribe").hide();
+        $('#thanks').show();
+    });
+   
+</script>
                 </div>
             </div>
         </section><!--fun facts-->
-        <!Section 3>
-            <div class="row special-feature">
-                
-                <div class="col-md-4 col-sm-6 margin30">
-                    <div class="s-feature-box text-center">
-                        <div class="mask-top">
-                            <!-- Icon -->
-                            <i class="fa fa-laptop"></i>
-                            <!-- Title -->
-                            <h4>Convenience</h4>
-                        </div>
-                        <div class="mask-bottom">
-                            <!-- Icon -->
-                            <i class="fa fa-laptop"></i>
-                            <!-- Title -->
-                            <h4>Convenience</h4>
-                            <!-- Text -->
-                            <h6>Delicious baked goods can be delivered, shipped or picked up with just a few clicks.</h6>
-                        </div>
-                    </div>
-                </div><!--services col-->
-                <div class="col-md-4 col-sm-6 margin30">
-                    <div class="s-feature-box text-center">
-                        <div class="mask-top">
-                            <!-- Icon -->
-                            <i class="fa fa-list"></i>
-                            <!-- Title -->
-                            <h4>Choice</h4>
-                        </div>
-                        <div class="mask-bottom">
-                            <!-- Icon -->
-                            <i class="fa fa-list"></i>
-                            <!-- Title -->
-                            <h4>Choice</h4>
-                            <!-- Text -->
-                            <h6>Unique baked goods of every kind - cupcakes, cookies, pastries and much more!</h6>
-                        </div>
-                    </div>
-                </div><!--services col-->
-                <div class="col-md-4 col-sm-6 margin30">
-                    <div class="s-feature-box text-center">
-                        <div class="mask-top">
-                            <!-- Icon -->
-                            <i class="fa fa-users"></i>
-                            <!-- Title -->
-                            <h4>Community</h4>
-                        </div>
-                        <div class="mask-bottom">
-                            <!-- Icon -->
-                            <i class="fa fa-users"></i>
-                            <!-- Title -->
-                            <h4>Community</h4>
-                            <!-- Text -->
-                            <h6>Share the love with out forum reviews and blog features.</h6>
-                        </div>
-                    </div>
-                </div><!--services col-->
-            </div>
-        <!/Section 3>
+
         
         <div class="container">
 
@@ -304,7 +278,7 @@
                             <div class="row">
                             <div class="col-md-12">
                             <div class="center-heading">
-                            <h2>What we do</h2>
+                            <!-- <h2>What we do</h2> -->
                             <span class="center-line"></span>
                             </div>
                             </div>
@@ -312,28 +286,67 @@
 									 <div class="row">
                             <div class="col-md-12">
                             <div class="center-heading">
-                            <h5>"If Baking is any labor at all, it's a labor of love. A love that gets passed from generation to generation." </h5>
-									 <p>- Regina Brett</p>
-									 <h5>Whether you want a cake for your friend's birthday, chocolate chip cookies for a midnight snack or enjoy your coffee with a delicious pastry, Quikbake makes it easy and convenient.</h5>
+                           
+									 <h4>Whether you want a cake for your friend's birthday, chocolate chip cookies for a midnight snack or enjoy your coffee with a delicious pastry, Quikbake makes it easy and convenient.</h4>
                             </div>
                             </div>
                             </div>
             <div class="divide60"></div>
-            <div class="row">
-                <div class="col-sm-8 col-sm-offset-2">
-                    <div class="center-heading">
-                        <h2>Thank you for your support</h2>
-                        <span class="center-line"></span>
-                        <p class="sub-text margin40">
-                        Watch out for our newsletter. We hope you are as excited as we are! We are looking to revolutionize how you get those delicious baked goods. But, we can only do it with YOUR help. </p>
-                    </div>
-                </div>
-                
-            </div><!--center heading end-->
+           
                             
                             </div>
-                            </div><!--assan features-->
-                            
+                            </div>
+							
+							
+				            <div class="row special-feature">
+                                <div class="center-heading">
+                
+				                <div class="col-md-4 col-sm-6 margin30">
+				               
+			
+				                            <!-- Icon -->
+				                            <i class="fa fa-laptop"></i>
+				                            <!-- Title -->
+				                            <h4>Convenience</h4>
+				                            <!-- Text -->
+				                            <h6>Delicious baked goods can be delivered, shipped or picked up with just a few clicks.</h6>
+				         
+				                </div><!--services col-->
+				                <div class="col-md-4 col-sm-6 margin30">
+				                    
+
+				                      
+				                            <!-- Icon -->
+				                            <i class="fa fa-list"></i>
+				                            <!-- Title -->
+				                            <h4>Choice</h4>
+				                            <!-- Text -->
+				                            <h6>Unique baked goods of every kind - cupcakes, cookies, pastries and much more!</h6>
+				            
+				                 
+				                </div><!--services col-->
+				                <div class="col-md-4 col-sm-6 margin30">
+				                    
+				        
+
+				                            <!-- Icon -->
+				                            <i class="fa fa-users"></i>
+				                            <!-- Title -->
+				                            <h4>Community</h4>
+				                            <!-- Text -->
+				                            <h6>Share the love with out forum reviews and blog features.</h6>
+				              
+				              
+				                </div><!--services col-->
+                            </div>
+				            </div>
+
+
+            <div class="no-padding.img-2">
+
+    </div>
+
+
                             <footer id="footer">
                             <div class="container">
                             
@@ -366,7 +379,7 @@
                             </ul>
                             </div>
                             </div><!--footer col-->
-                            <div class="col-md-4 col-sm-6 margin30">
+            <!--                 <div class="col-md-4 col-sm-6 margin30">
                             <div class="footer-col">
                             <h3>Newsletter</h3>
                             <p>
@@ -380,7 +393,7 @@
                             </div>
                             </form>
                             </div>                        
-                            </div><!--footer col-->
+                            </div> -->
                             
                             </div>
                             <div class="row">
