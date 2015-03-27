@@ -134,9 +134,7 @@
                                 data-x="40"
                                 data-y="70"
                                 data-speed="600"
-                                data-start="1200"
-                                data-end="9400"
-                                data-endspeed="600">  Bringing baked goods to your doorstep
+                                data-start="1200">  Bringing baked goods to your doorstep
                             </div>
                             
                             <!-- LAYER NR. 2 -->
@@ -144,9 +142,7 @@
                                 data-x="40"
                                 data-y="170"
                                 data-speed="600"
-                                data-start="1600"
-                                data-end="9400"
-                                data-endspeed="600"><i class="fa fa-check"></i>
+                                data-start="1600"><i class="fa fa-check"></i>
                             </div>
                             
                             <!-- LAYER NR. 3 -->
@@ -154,9 +150,7 @@
                                 data-x="90"
                                 data-y="170"
                                 data-speed="600"
-                                data-start="1600"
-                                data-end="9400"
-                                data-endspeed="600">Convenience
+                                data-start="1600">Convenience
                             </div>
                             
                             <!-- LAYER NR. 4 -->
@@ -164,9 +158,7 @@
                                 data-x="40"
                                 data-y="220"
                                 data-speed="600"
-                                data-start="1800"
-                                data-end="9400"
-                                data-endspeed="600"><i class="fa fa-check"></i>
+                                data-start="1800"><i class="fa fa-check"></i>
                             </div>
                             
                             <!-- LAYER NR. 5 -->
@@ -174,9 +166,7 @@
                                 data-x="90"
                                 data-y="220"
                                 data-speed="600"
-                                data-start="1800"
-                                data-end="9400"
-                                data-endspeed="600">Choice
+                                data-start="1800">Choice
                             </div>
                             
                             <!-- LAYER NR. 6 -->
@@ -184,9 +174,7 @@
                                 data-x="40"
                                 data-y="270"
                                 data-speed="600"
-                                data-start="2000"
-                                data-end="9400"
-                                data-endspeed="600"><i class="fa fa-check"></i>
+                                data-start="2000"><i class="fa fa-check"></i>
                             </div>
                             
                             <!-- LAYER NR. 7 -->
@@ -194,9 +182,7 @@
                                 data-x="90"
                                 data-y="270"
                                 data-speed="600"
-                                data-start="2000"
-                                data-end="9400"
-                                data-endspeed="600">Community
+                                data-start="2000">Community
                             </div>
 
                             <!-- LAYER NR. 11 -->
@@ -204,9 +190,7 @@
                                 data-x="right"
                                 data-y="center"
                                 data-speed="600"
-                                data-start="2700"
-                                data-end="9400"
-                                data-endspeed="600"><img src="img/qb.jpg" alt="">
+                                data-start="2700"><img src="img/qb.jpg" alt="">
                                     </div>
                             </li>
                 </ul>
