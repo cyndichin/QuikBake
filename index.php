@@ -64,14 +64,17 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="img/QBword.jpg" alt=“QuikBake”></a>
+                    <a class="navbar-brand" href="index.php"><img src="img/QBword.jpg" alt=“QuikBake”></a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown active ">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home </a>
-                            <!-- <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact Us </a> -->
                         </li>
+                         <li class="dropdown active ">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact Us</a>
+                        </li>
+                    <ul>
 
                 </div><!--/.nav-collapse -->
             </div><!--container-->
@@ -294,5 +297,4 @@
         
         <!--revolution slider plugins-->
         <script src="rs-plugin/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
-        <script src="rs-plugin/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
-        <script src="js/revolution-custom.js" type="text/javascri
+        <script src="rs-plugin/js/jquery.themepunch.revolution.min.js"
