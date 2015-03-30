@@ -70,7 +70,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown active ">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home </a>
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact Us </a>
+                            <!-- <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact Us </a> -->
                         </li>
 
                 </div><!--/.nav-collapse -->
@@ -295,4 +295,4 @@
         <!--revolution slider plugins-->
         <script src="rs-plugin/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
         <script src="rs-plugin/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
-        <script src="js/revolution-custom.js" type="text/javascript"></scr
+        <script src="js/revolution-custom.js" type="text/javascri
