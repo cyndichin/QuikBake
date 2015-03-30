@@ -46,18 +46,10 @@
                 <div class="top-bar">
                     <div class="pull-left sample-1right hidden-xs">
                         <a><i class="fa fa-phone"></i> Call: <span class="colored-text">1-(347)-796-0225</span> </a>
-                        <a><i class="fa fa-envelope"></i> Mail us: <span class="colored-text">quikbake@domain.com</span> </a>
+                        <a><i class="fa fa-envelope"></i> Mail us: <span class="colored-text">support@quikbake.com</span> </a>
                     </div>
                     <div class="pull-right">
-                        <form>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="search...">
-                                    
-                                    <button type="button"><i class="fa fa-search"></i></button>
-                                    
-                                    </div><!--input group-->
-                        </form><!--form-->
-                    </div>
+
                 </div>
             </div>
         </div><!--top bar end hidden in small devices-->
@@ -72,163 +64,37 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="img/logo.jpg" alt=“QuikBake”></a>
+                    <a class="navbar-brand" href="index.html"><img src="img/QBword.jpg" alt=“QuikBake”></a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown active ">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home <i class="fa fa-angle-down"></i></a>
-                            <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
-                                <li class="dropdown-submenu">
-                                    <a tabindex="-1" href="#">Home</a>
-                                </li>
-                            </ul>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home </a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact Us </a>
                         </li>
-                        <li class="dropdown">
-                            <a href="#" class=" dropdown-toggle" data-toggle="dropdown"><i class="fa fa-lock"></i> Sign In</a>
-                            <div class="dropdown-menu dropdown-menu-right dropdown-login-box animated fadeInUp">
-                                <form role="form">
-                                    <h4>Signin</h4>
-                                    
-                                    <div class="form-group">
-                                        <div class="input-group">
-                                            <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                            <input type="text" class="form-control" placeholder="Username">
-                                                </div>
-                                        <br>
-                                        <div class="input-group">
-                                            <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                                            <input type="password" class="form-control" placeholder="Password">
-                                                </div>
-                                        <div class="checkbox pull-left">
-                                            <label>
-                                                <input type="checkbox"> Remember me
-                                                    </label>
-                                        </div>
-                                        <a class="btn btn-theme-bg pull-right">Login</a>
-                                        <!--                                        <button type="submit" class="btn btn-theme pull-right">Login</button>                 -->
-                                        <div class="clearfix"></div>
-                                        <hr>
-                                        <p>Don't have an account! <a href="#">Register Now</a></p>
-                                    </div>
-                                </form>
-                            </div>
-                        </li> <!--menu login li end here-->
-                    </ul>
+
                 </div><!--/.nav-collapse -->
             </div><!--container-->
         </div><!--navbar-default-->
         
         
-        <!--rev slider start-->
-        
-        <div class="fullwidthbanner">
-            <div class="tp-banner">
-                <ul>
-                    <!-- SLIDE -->
-                    <li data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="Slide 1">
-                        <!-- MAIN IMAGE -->
-                      <img src="rev-images/slider-5.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
-                            <!-- LAYER NR. 1 -->
-                            <div class="caption modern_big_bluebg sfr tp-resizeme"
-                                data-x="40"
-                                data-y="70"
-                                data-speed="600"
-                                data-start="1200">  Bringing baked goods to your doorstep
-                            </div>
-                            
-                            <!-- LAYER NR. 2 -->
-                            <div class="caption medium_bg_darkblue sfl medium tp-resizeme"
-                                data-x="40"
-                                data-y="170"
-                                data-speed="600"
-                                data-start="1600"><i class="fa fa-check"></i>
-                            </div>
-                            
-                            <!-- LAYER NR. 3 -->
-                            <div class="caption modern_big_redbg sfb medium tp-resizeme"
-                                data-x="90"
-                                data-y="170"
-                                data-speed="600"
-                                data-start="1600">Convenience
-                            </div>
-                            
-                            <!-- LAYER NR. 4 -->
-                            <div class="caption medium_bg_darkblue sfl medium tp-resizeme"
-                                data-x="40"
-                                data-y="220"
-                                data-speed="600"
-                                data-start="1800"><i class="fa fa-check"></i>
-                            </div>
-                            
-                            <!-- LAYER NR. 5 -->
-                            <div class="caption modern_big_redbg sfb medium tp-resizeme"
-                                data-x="90"
-                                data-y="220"
-                                data-speed="600"
-                                data-start="1800">Choice
-                            </div>
-                            
-                            <!-- LAYER NR. 6 -->
-                            <div class="caption medium_bg_darkblue sfl medium tp-resizeme"
-                                data-x="40"
-                                data-y="270"
-                                data-speed="600"
-                                data-start="2000"><i class="fa fa-check"></i>
-                            </div>
-                            
-                            <!-- LAYER NR. 7 -->
-                            <div class="caption modern_big_redbg sfb medium tp-resizeme"
-                                data-x="90"
-                                data-y="270"
-                                data-speed="600"
-                                data-start="2000">Community
-                            </div>
-
-                            <!-- LAYER NR. 11 -->
-                            <div class="caption sfr tp-resizeme"
-                                data-x="right"
-                                data-y="center"
-                                data-speed="600"
-                                data-start="2700"><img src="img/qb.jpg" alt="">
-                                    </div>
-                            </li>
-                </ul>
-            </div>
-        </div><!--full width banner-->
-        
-        <!--end-->
-        <!--end-->
-        
         </div>
 
-          <div class="divide50"></div>            
-                 
-                        <div class="row">
-                            <div class="col-md-12">
-                            <div class="center-heading">
-                                  <br><br><br>
-                            <h2>"If Baking is any labor at all, it's a labor of love. A love that gets passed from generation to generation." </h2>
-                                     <h5>- Regina Brett</h5>
-                                      <span class="center-line"></span>
-                          
-                            </div>
-                            </div>
-                        </div>
-                              <div class="divide50"></div>
+                       
         
         <section class="fun-fact-wrap fun-facts-bg">
             <div class="container">
                 <div class="row">
                     <div class="center-heading">
                         <div id="subscribe">   
+                            <h1>The First Online Marketplace <br> Connecting Bakeries with Baked Goods Lovers</h1>
                      <h3>Join us for early access.</h3>
 <span style="text-align: center;">
                     
-                            <input type="text" name="name" size="35" height="160" placeholder="Name"><br><br>
-                                <input type="text" name="email" size="35" line-height="160" placeholder="Email"><br><br>
+                            <input type="text" name="name" size="35" height="160" placeholder="Name">
+                                <input type="text" name="email" size="35" line-height="160" placeholder="Email">
                                  <span class="input-group-btn"> 
-<input type="submit" name="submit" class="btn  btn-theme-dark btn-lg" >
+<button name="submit" class="btn  btn-theme-dark btn-lg" >Early Access</button>
 </span>
         
               
@@ -240,10 +106,12 @@
                 <div class='col-sm-8 col-sm-offset-2'>
                      <div class="bounceInDown">
                     <div class='center-heading'>
-                        <h2>Thank you for your support</h2>
+                        <h1>Thank you for your support!</h1>
                    
-                        <h6>
-                        Watch out for our newsletter. We hope you are as excited as we are! We are looking to revolutionize how you get those delicious baked goods. But, we can only do it with YOUR help. </h6>
+                        <h5>
+                        Watch out for our newsletter. We hope you are as excited as we are! 
+                        We are looking to revolutionize how you get those delicious baked goods. 
+                        But, we can only do it with YOUR help. </h5>
                     </div>
                 </div>
                 </div>
@@ -255,7 +123,7 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>  
      $('#thanks').hide();
-    $("input[name=submit]").on('click',function (){
+    $("button[name=submit]").on('click',function (){
         $("#subscribe").hide();
         $('#thanks').show();
     });
@@ -265,6 +133,19 @@
             </div>
         </section><!--fun facts-->
 
+          <div class="divide50"></div>            
+                 
+                        <div class="row">
+                            <div class="col-md-12">
+                            <div class="center-heading">
+                                  <br><br><br>
+                            <h2>"If Baking is any labor at all, it's a labor of love. A love that gets passed from generation to generation." </h2>
+                                     <h5>- Regina Brett</h5>
+                                    
+                          
+                            </div>
+                            </div>
+                        </div>
         
         <div class="container">
 
@@ -342,59 +223,32 @@
 				            </div>
 
 
-            <div class="no-padding.img-2">
-
-    </div>
-
+       
 
                             <footer id="footer">
                             <div class="container">
                             
                             <div class="row">
-                            <div class="col-md-4 col-sm-6 margin30">
-                            <div class="footer-col">
-                            <h3>About Quikbake</h3>
-                            <p>
+                  
+                 
+                                              
+                                 <div class="col-md-12 text-center">
+                            <span style="color: white"><h2>Connect With Us</h2></span>
+                                                        <p>
                             Quikbake provides a platform that connects customers and local bakeries in one platform, providing swift access and a wide range of choices for its customers.
                             </p>
                             <ul class="list-inline social-1">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href="https://www.facebook.com/QuikBake"><i class="fa fa-facebook-square fa-lg"></i></a></li>
+                            <li><a href="twitter.com/quikbake"><i class="fa fa-twitter-square fa-lg"></i></a></li>
+                            <li><a href="https://instagram.com/quikbake/"><i class="fa fa-instagram fa-lg"></i></a></li>
+                            <li><a href="https://www.pinterest.com/QuikBake/"><i class="fa fa-pinterest-square fa-lg"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin-square fa-lg"></i></a></li>
                             </ul>
-                            </div>
-                            </div><!--footer col-->
-                            <div class="col-md-4 col-sm-6 margin30">
-                            <div class="footer-col">
-                            <h3>Contact</h3>
-                            
-                            <ul class="list-unstyled contact">
-                            <li><p><strong><i class="fa fa-map-marker"></i> Address:</strong> Binghamton University</p></li>
-                            <li><p><strong><i class="fa fa-envelope"></i> Mail Us:</strong> <a href="#">support@quikbake.com</a></p></li>
-                            <li> <p><strong><i class="fa fa-phone"></i> Phone:</strong> +1 (347)-726-0225</p></li>
-                            <li> <p><strong><i class="fa fa-print"></i> Fax</strong> 1800 2345 2132</p></li>
-                            
-                            </ul>
-                            </div>
-                            </div><!--footer col-->
-            <!--                 <div class="col-md-4 col-sm-6 margin30">
-                            <div class="footer-col">
-                            <h3>Newsletter</h3>
-                            <p>
-                            Please subscribe to stay up to date about Quikbake and be the first to know about what's new at Quikbake!
-                            </p>
-                            <form role="form" class="subscribe-form">
-                            <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Enter email to subscribe">
-                            <span class="input-group-btn">
-                            <button class="btn  btn-theme-dark btn-lg" type="submit">Ok</button>
-                            </div>
-                            </form>
-                            </div>                        
-                            </div> -->
-                            
+                        <p><strong><i class="fa fa-envelope"></i> Mail Us:</strong> <a href="#">support@quikbake.com</a></p>
+  
+   
+                            </div>      
+                     
                             </div>
                             <div class="row">
                             <div class="col-md-12 text-center">
@@ -441,7 +295,4 @@
         <!--revolution slider plugins-->
         <script src="rs-plugin/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
         <script src="rs-plugin/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
-        <script src="js/revolution-custom.js" type="text/javascript"></script>
-        
-    </body>
-</html>
+        <script src="js/revolution-custom.js" type="text/javascript"></scr

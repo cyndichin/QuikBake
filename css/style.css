@@ -2043,12 +2043,12 @@ ul.post-desc li + li{
 
 /* #footer is by default*/
 #footer {
-
-    background: #111;
+background: #111;
     font-size: 0.9em;
     padding: 80px 0 0;
     position: relative;
     clear: both;
+    color: white;
 }
 
 .footer-col h3 {
