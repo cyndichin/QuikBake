@@ -21,7 +21,8 @@
                                         <link href="rs-plugin/css/settings.css" rel="stylesheet" type="text/css" media="screen">
                                             <link href="css/rev-style.css" rel="stylesheet" type="text/css" media="screen">
                                                 <!--google fonts-->
-                                                
+                                                 
+																	
                                                 
                                                 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic' rel='stylesheet' type='text/css'>
                                                     <!--owl carousel css-->
@@ -30,6 +31,7 @@
                                                     <!--mega menu -->
                                                     <link href="css/yamm.css" rel="stylesheet" type="text/css">
                                                     <!--popups css-->
+																	 
                                                     <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
                                                     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
                                                     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -38,7 +40,8 @@
                                                      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
                                                      <![endif]-->
                                                     
-                                                    </head>
+      </head>
+		
     <body>
         
         <div id="header-top">
@@ -66,17 +69,6 @@
                     </button>
                     <a class="navbar-brand" href="index.php"><img src="img/QBword.jpg" alt=“QuikBake”></a>
                 </div>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="dropdown active ">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home </a>
-                        </li>
-                         <li class="dropdown active ">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact Us</a>
-                        </li>
-                    <ul>
-
-                </div><!--/.nav-collapse -->
             </div><!--container-->
         </div><!--navbar-default-->
         
@@ -91,8 +83,7 @@
                     <div class="center-heading">
                         <div id="subscribe">   
                             <h1>The First Online Marketplace <br> Connecting Bakeries with Baked Goods Lovers</h1>
-                     <h3>Join us for early access.</h3>
-<span style="text-align: center;">
+<span style="text-align: center;"> <br>
                     
                             <input type="text" name="name" size="35" height="160" placeholder="Name">
                                 <input type="text" name="email" size="35" line-height="160" placeholder="Email">
@@ -136,7 +127,7 @@
             </div>
         </section><!--fun facts-->
 
-          <div class="divide50"></div>            
+          <div class="divide20"></div>            
                  
                         <div class="row">
                             <div class="col-md-12">
@@ -156,7 +147,7 @@
                             </div>
                             </div><!--services container-->
                             
-                            <div class="divide50"></div>
+                            <div class="divide20"></div>
                             <div class="assan-features">
                             <div class="container">
                             <div class="row">
@@ -236,17 +227,12 @@
                  
                                               
                                  <div class="col-md-12 text-center">
-                            <span style="color: white"><h2>Connect With Us</h2></span>
-                                                        <p>
+                            <h2><span style="color: white">Connect With Us</span></h2>
+                            <p><span style="color: white">
                             Quikbake provides a platform that connects customers and local bakeries in one platform, providing swift access and a wide range of choices for its customers.
-                            </p>
-                            <ul class="list-inline social-1">
-                            <li><a href="https://www.facebook.com/QuikBake"><i class="fa fa-facebook-square fa-lg"></i></a></li>
-                            <li><a href="twitter.com/quikbake"><i class="fa fa-twitter-square fa-lg"></i></a></li>
-                            <li><a href="https://instagram.com/quikbake/"><i class="fa fa-instagram fa-lg"></i></a></li>
-                            <li><a href="https://www.pinterest.com/QuikBake/"><i class="fa fa-pinterest-square fa-lg"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin-square fa-lg"></i></a></li>
-                            </ul>
+                            </span></p>
+                            
+									  
                         <p><strong><i class="fa fa-envelope"></i> Mail Us:</strong> <a href="#">support@quikbake.com</a></p>
   
    
