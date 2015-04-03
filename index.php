@@ -69,11 +69,11 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown active ">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home </a>
+                            <a href="index.php">Home </a>
                         </li>
-                         <li class="dropdown active ">
+               <!--           <li class="dropdown active ">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact Us</a>
-                        </li>
+                        </li> -->
                     <ul>
 
                 </div><!--/.nav-collapse -->
@@ -93,101 +93,114 @@
                             <h1>The First Online Marketplace <br> Connecting Bakeries with Baked Goods Lovers</h1>
                      <h3>Join us for early access.</h3>
 <span style="text-align: center;">
-                    
-                            <input type="text" name="name" size="35" height="160" placeholder="Name">
-                                <input type="text" name="email" size="35" line-height="160" placeholder="Email">
-                                 <span class="input-group-btn"> 
-<button name="submit" class="btn  btn-theme-dark btn-lg" >Early Access</button>
-</span>
-        
-              
-                </div>
-                            </div>
-
-    <div id="thanks">             
-            <div class='row'>
-                <div class='col-sm-8 col-sm-offset-2'>
-                     <div class="bounceInDown">
-                    <div class='center-heading'>
-                        <h1>Thank you for your support!</h1>
-                   
-                        <h5>
-                        Watch out for our newsletter. We hope you are as excited as we are! 
-                        We are looking to revolutionize how you get those delicious baked goods. 
-                        But, we can only do it with YOUR help. </h5>
-                    </div>
+              <form method="post" action="index.php">  
+             <input type="text" size=40 name="name" aria-required="true" aria-invalid="false" placeholder="Name" value=""><br><br>
+             <input type="text" size=40 name="email" aria-required="true" aria-invalid="false" placeholder="Email" value=""> <br><br>
+             <input type="submit" name="submit" value="Early Access">
+        </form>
                 </div>
                 </div>
-            </div>
-</div>
-            
-
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script>  
-     $('#thanks').hide();
-    $("button[name=submit]").on('click',function (){
-        $("#subscribe").hide();
-        $('#thanks').show();
-    });
-   
-</script>
+
+    <?php
+    if(isset($_POST['submit'])){
+        $to = 'cgc95@cornell.edu';
+        $name = $_POST[ 'name' ] ;
+        $email = $_POST['email'] ; 
+        $regex = '/^([0-9]+)$/'; 
+        $error = "Error";
+
+        // This is what is included in both emails to me and the user.
+        $headers = 'From: do-not-reply';
+        $subject = "Message from $name ($email).";  
+        $subject2 = "Hi $name."; 
+        $message = "Name: $name  Email: $email has subscribed.  "; 
+        $autoreply = "Thank you for subscribing to QuikBake."; 
+
+        // Validations. User must enter a name and an email.
+        // CONDITIONAL CLAUSE HERE
+        if ( empty( $_POST[ 'name' ] ) ) {
+            print "<h5><span style='color:red'>Error: You did not enter your name.</span></h5>";
+        } elseif (empty( $_POST[ 'email' ])) {
+            echo "<h5><span style='color:red'>Error: You did not enter your email.</span></h5>";
+        } elseif(!filter_var($email, FILTER_VALIDATE_EMAIL)){
+              echo "<h5><span style='color:red'>Error: E-mail is invalid.</span></h5>";
+        } else {      
+                $name = htmlentities( $_POST[ 'name' ] );
+                //sends to quikbake
+                $send = mail($to, $subject, $message, $headers);
+                //sends to user
+                $send2 = mail($email, $subject2, $autoreply, $headers); 
+                // Displays if the person is able to send the email. 
+                if($send)  {
+                    echo "
+                     <script type='text/javascript'>
+                      $('#subscribe').hide();
+                    </script>
+                    <div id='thanks'>             
+                        <div class='row'>
+                        <div class='col-sm-8 col-sm-offset-2'>
+                        <div class='bounceInDown'>
+                        <div class='center-heading'>
+                            <h1>Thank you for your support!</h1>       
+                            <h5>
+                            Watch out for our newsletter. We hope you are as excited as we are! 
+                            We are looking to revolutionize how you get those delicious baked goods. 
+                            But, we can only do it with YOUR help. </h5>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                   ";        
+        }}}
+        ?>
+
                 </div>
             </div>
         </section><!--fun facts-->
 
-          <div class="divide50"></div>            
-                 
-                        <div class="row">
-                            <div class="col-md-12">
-                            <div class="center-heading">
-                                  <br><br><br>
-                            <h2>"If Baking is any labor at all, it's a labor of love. A love that gets passed from generation to generation." </h2>
-                                     <h5>- Regina Brett</h5>
-                                    
-                          
-                            </div>
-                            </div>
-                        </div>
-        
-        <div class="container">
+                    <div class="container"> 
+           
+                      <br><br><br>
+                <h2>"If Baking is any labor at all, it's a labor of love. A love that gets passed from generation to generation." </h2>
+                <h5>- Regina Brett</h5>
 
-            
-                            </div>
-                            </div><!--services container-->
-                            
-                            <div class="divide50"></div>
+                     </div> 
+
+                    
                             <div class="assan-features">
                             <div class="container">
                             <div class="row">
                             <div class="col-md-12">
                             <div class="center-heading">
-                            <!-- <h2>What we do</h2> -->
+                    
                             <span class="center-line"></span>
                             </div>
                             </div>
                             </div>
-									 <div class="row">
-                            <div class="col-md-12">
+							<div class="row">
                             <div class="center-heading">
                            
 									 <h4>Whether you want a cake for your friend's birthday, chocolate chip cookies for a midnight snack or enjoy your coffee with a delicious pastry, Quikbake makes it easy and convenient.</h4>
+                    
                             </div>
                             </div>
+
+            
                             </div>
+                            </div><!--services container-->
             <div class="divide60"></div>
-           
                             
+                      
                             </div>
-                            </div>
-							
 							
 				            <div class="row special-feature">
                                 <div class="center-heading">
                 
-				                <div class="col-md-4 col-sm-6 margin30">
+				                <div class="col-md-4 padding">
 				               
-			
 				                            <!-- Icon -->
 				                            <i class="fa fa-laptop"></i>
 				                            <!-- Title -->
@@ -196,10 +209,8 @@
 				                            <h6>Delicious baked goods can be delivered, shipped or picked up with just a few clicks.</h6>
 				         
 				                </div><!--services col-->
-				                <div class="col-md-4 col-sm-6 margin30">
-				                    
-
-				                      
+				                <div class="col-md-4 padding">
+			                      
 				                            <!-- Icon -->
 				                            <i class="fa fa-list"></i>
 				                            <!-- Title -->
@@ -209,57 +220,48 @@
 				            
 				                 
 				                </div><!--services col-->
-				                <div class="col-md-4 col-sm-6 margin30">
-				                    
-				        
-
+				                <div class="col-md-4 padding">             
+                                  
 				                            <!-- Icon -->
 				                            <i class="fa fa-users"></i>
 				                            <!-- Title -->
 				                            <h4>Community</h4>
 				                            <!-- Text -->
 				                            <h6>Share the love with out forum reviews and blog features.</h6>
-				              
-				              
+
 				                </div><!--services col-->
+
                             </div>
 				            </div>
 
 
-       
+                            <br>
 
                             <footer id="footer">
                             <div class="container">
-                            
                             <div class="row">
                   
-                 
-                                              
-                                 <div class="col-md-12 text-center">
-                            <span style="color: white"><h2>Connect With Us</h2></span>
-                                                        <p>
+                            <div class="col-md-12 text-center">
+                            <span style="color: white; font-size: 30px;">Connect With Us</span>
+                            <span style="color: white; font-size: 16px;"><br><br>
                             Quikbake provides a platform that connects customers and local bakeries in one platform, providing swift access and a wide range of choices for its customers.
-                            </p>
-                            <ul class="list-inline social-1">
+                            </span><br><br>
+                            <div class="row special-feature">
+                            <ul class="list-inline">
                             <li><a href="https://www.facebook.com/QuikBake"><i class="fa fa-facebook-square fa-lg"></i></a></li>
-                            <li><a href="twitter.com/quikbake"><i class="fa fa-twitter-square fa-lg"></i></a></li>
+                            <li><a href="https://www.twitter.com/quikbake"><i class="fa fa-twitter-square fa-lg"></i></a></li>
                             <li><a href="https://instagram.com/quikbake/"><i class="fa fa-instagram fa-lg"></i></a></li>
                             <li><a href="https://www.pinterest.com/QuikBake/"><i class="fa fa-pinterest-square fa-lg"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin-square fa-lg"></i></a></li>
-                            </ul>
-                        <p><strong><i class="fa fa-envelope"></i> Mail Us:</strong> <a href="#">support@quikbake.com</a></p>
-  
-   
+                            <li><a href="https://www.linkedin.com/company/quikbake"><i class="fa fa-linkedin-square fa-lg"></i></a></li>
+                            </ul><br>
+                        </div>
+                        <strong><i class="fa fa-envelope"></i> Mail Us:</strong> <a href="#">support@quikbake.com</a><br><br>
+                              <span>&copy;2015. QuikBake </span>
                             </div>      
-                     
                             </div>
-                            <div class="row">
-                            <div class="col-md-12 text-center">
-                            <div class="footer-btm">
-                            <span>&copy;2015. QuikBake </span>
-                            </div>
-                </div>
-            </div>
+        
+                          
+                      
         </div>
         </footer><!--default footer end here-->
         <!--scripts and plugins -->
@@ -297,4 +299,8 @@
         
         <!--revolution slider plugins-->
         <script src="rs-plugin/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
-        <script src="rs-plugin/js/jquery.themepunch.revolution.min.js"
+        <script src="rs-plugin/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
+        <script src="js/revolution-custom.js" type="text/javascript"></script>
+        
+    </body>
+</html>
