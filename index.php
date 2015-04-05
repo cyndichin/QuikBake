@@ -46,7 +46,7 @@
                 <div class="top-bar">
                     <div class="pull-left sample-1right hidden-xs">
                         <a><i class="fa fa-phone"></i> Call: <span class="colored-text">1-(347)-796-0225</span> </a>
-                        <a><i class="fa fa-envelope"></i> Mail us: <span class="colored-text">support@quikbake.com</span> </a>
+                        <a><i class="fa fa-envelope"></i> Mail us: <span class="colored-text"><a href="mailto:support@quikbake.com?Subject=QuikBake%20Support:" target="_blank">support@quikbake.com</span></a></a>
                     </div>
                     <div class="pull-right">
 
@@ -243,11 +243,11 @@
                             <span style="color: white; font-size: 16px;"><br><br>
                             <div class="row special-feature">
                             <ul class="list-inline">
-                            <li><a href="https://www.facebook.com/QuikBake"><i class="fa fa-facebook-square fa-lg"></i></a></li>
-                            <li><a href="https://www.twitter.com/quikbake"><i class="fa fa-twitter-square fa-lg"></i></a></li>
-                            <li><a href="https://instagram.com/quikbake/"><i class="fa fa-instagram fa-lg"></i></a></li>
-                            <li><a href="https://www.pinterest.com/QuikBake/"><i class="fa fa-pinterest-square fa-lg"></i></a></li>
-                            <li><a href="https://www.linkedin.com/company/quikbake"><i class="fa fa-linkedin-square fa-lg"></i></a></li>
+                            <li><a href="https://www.facebook.com/QuikBake" target="_blank"><i class="fa fa-facebook-square fa-lg"></i></a></li>
+                            <li><a href="https://www.twitter.com/quikbake" target="_blank"><i class="fa fa-twitter-square fa-lg"></i></a></li>
+                            <li><a href="https://instagram.com/quikbake/" target="_blank"><i class="fa fa-instagram fa-lg"></i></a></li>
+                            <li><a href="https://www.pinterest.com/QuikBake/" target="_blank"><i class="fa fa-pinterest-square fa-lg"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/quikbake" target="_blank"><i class="fa fa-linkedin-square fa-lg"></i></a></li>
                             </ul><br>
                         </div>
                         <strong><i class="fa fa-envelope"></i> Mail Us:</strong> <a href="#">support@quikbake.com</a><br><br>
