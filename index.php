@@ -91,6 +91,7 @@
                     <div class="center-heading">
                         <div id="subscribe">   
                             <h1>The First Online Marketplace <br> Connecting Bakeries with Baked Goods Lovers</h1>
+                     <h3>Join us for early access.</h3>
 <span style="text-align: center;">
               <form method="post" action="index.php">  
              <input type="text" size=40 name="name" aria-required="true" aria-invalid="false" placeholder="Name" value=""><br><br>
@@ -109,14 +110,12 @@
         $email = $_POST['email'] ; 
         $regex = '/^([0-9]+)$/'; 
         $error = "Error";
-
         // This is what is included in both emails to me and the user.
         $headers = 'From: do-not-reply';
         $subject = "Message from $name ($email).";  
         $subject2 = "Hi $name."; 
         $message = "Name: $name  Email: $email has subscribed.  "; 
         $autoreply = "Thank you for subscribing to QuikBake."; 
-
         // Validations. User must enter a name and an email.
         // CONDITIONAL CLAUSE HERE
         if ( empty( $_POST[ 'name' ] ) ) {
@@ -242,7 +241,7 @@
                   
                             <div class="col-md-12 text-center">
                             <span style="color: white; font-size: 30px;">Connect With Us</span>
-                            <br>
+                            <span style="color: white; font-size: 16px;"><br><br>
                             <div class="row special-feature">
                             <ul class="list-inline">
                             <li><a href="https://www.facebook.com/QuikBake"><i class="fa fa-facebook-square fa-lg"></i></a></li>
