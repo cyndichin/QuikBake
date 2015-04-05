@@ -91,7 +91,6 @@
                     <div class="center-heading">
                         <div id="subscribe">   
                             <h1>The First Online Marketplace <br> Connecting Bakeries with Baked Goods Lovers</h1>
-                     <h3>Join us for early access.</h3>
 <span style="text-align: center;">
               <form method="post" action="index.php">  
              <input type="text" size=40 name="name" aria-required="true" aria-invalid="false" placeholder="Name" value=""><br><br>
@@ -243,9 +242,7 @@
                   
                             <div class="col-md-12 text-center">
                             <span style="color: white; font-size: 30px;">Connect With Us</span>
-                            <span style="color: white; font-size: 16px;"><br><br>
-                            Quikbake provides a platform that connects customers and local bakeries in one platform, providing swift access and a wide range of choices for its customers.
-                            </span><br><br>
+                            <br>
                             <div class="row special-feature">
                             <ul class="list-inline">
                             <li><a href="https://www.facebook.com/QuikBake"><i class="fa fa-facebook-square fa-lg"></i></a></li>
