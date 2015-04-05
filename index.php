@@ -250,7 +250,7 @@
                             <li><a href="https://www.linkedin.com/company/quikbake" target="_blank"><i class="fa fa-linkedin-square fa-lg"></i></a></li>
                             </ul><br>
                         </div>
-                        <strong><i class="fa fa-envelope"></i> Mail Us:</strong> <a href="#">support@quikbake.com</a><br><br>
+                        <strong><i class="fa fa-envelope"></i> Mail Us:</strong> <a href="mailto:support@quikbake.com?Subject=QuikBake%20Support:" target="_blank">support@quikbake.com</a><br><br>
                               <span>&copy;2015. QuikBake </span>
                             </div>      
                             </div>
