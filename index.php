@@ -105,7 +105,7 @@
 
     <?php
     if(isset($_POST['submit'])){
-        $to = 'cgc95@cornell.edu';
+        $to = 'rzaman1@binghamton.edu';
         $name = $_POST[ 'name' ] ;
         $email = $_POST['email'] ; 
         $regex = '/^([0-9]+)$/'; 
