@@ -103,57 +103,7 @@
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
-    <?php
-    if(isset($_POST['submit'])){
-        $to = 'rzaman1@binghamton.edu';
-        $name = $_POST[ 'name' ] ;
-        $email = $_POST['email'] ; 
-        $regex = '/^([0-9]+)$/'; 
-        $error = "Error";
-        // This is what is included in both emails to me and the user.
-        $headers = 'From: do-not-reply';
-        $subject = "Message from $name ($email).";  
-        $subject2 = "Hi $name."; 
-        $message = "Name: $name  Email: $email has subscribed.  "; 
-        $autoreply = "Thank you for subscribing to QuikBake."; 
-        // Validations. User must enter a name and an email.
-        // CONDITIONAL CLAUSE HERE
-        if ( empty( $_POST[ 'name' ] ) ) {
-            print "<h5><span style='color:red'>Error: You did not enter your name.</span></h5>";
-        } elseif (empty( $_POST[ 'email' ])) {
-            echo "<h5><span style='color:red'>Error: You did not enter your email.</span></h5>";
-        } elseif(!filter_var($email, FILTER_VALIDATE_EMAIL)){
-              echo "<h5><span style='color:red'>Error: E-mail is invalid.</span></h5>";
-        } else {      
-                $name = htmlentities( $_POST[ 'name' ] );
-                //sends to quikbake
-                $send = mail($to, $subject, $message, $headers);
-                //sends to user
-                $send2 = mail($email, $subject2, $autoreply, $headers); 
-                // Displays if the person is able to send the email. 
-                if($send)  {
-                    echo "
-                     <script type='text/javascript'>
-                      $('#subscribe').hide();
-                    </script>
-                    <div id='thanks'>             
-                        <div class='row'>
-                        <div class='col-sm-8 col-sm-offset-2'>
-                        <div class='bounceInDown'>
-                        <div class='center-heading'>
-                            <h1>Thank you for your support!</h1>       
-                            <h5>
-                            Watch out for our newsletter. We hope you are as excited as we are! 
-                            We are looking to revolutionize how you get those delicious baked goods. 
-                            But, we can only do it with YOUR help. </h5>
-                        </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                   ";        
-        }}}
-        ?>
+   
 
                 </div>
             </div>
